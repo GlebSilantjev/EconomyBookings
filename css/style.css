@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 320px;
+}
+
+header .main-header {
+    height: 64px;
+    background-color: #1a5880;
+}
