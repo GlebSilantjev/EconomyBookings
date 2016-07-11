@@ -2,12 +2,68 @@
     box-sizing: border-box;
 }
 
-.main-container {
-    width: 320px;
+body {
+    padding: 0;
+    margin: 0;
 }
 
-header .main-header {
-    height: 64px;
-    background-color: #1a5880;
-    margin: 0 auto;
+.main-container {
+    width: 100%;
 }
+
+/* Header */
+
+.main-header {
+    width: 100%;
+    background-color: #1a5880;
+}
+
+.main-nav {
+    height: 64px;
+    width: 320px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main-logo {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    padding-left: 18px;
+}
+
+.btn {
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+.btn-hamburger {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translate(0, -50%);
+    padding: 10px;
+    border: 1px solid #5f8aa6;
+    border-radius: 3px;
+}
+
+.fa-bars {
+    color: #fff;
+
+}
+
+/* Spotlight */
+
+.spotlight {
+    height: 486px;
+    background: url("../img/milano.jpg"), center, no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+    .spotlight img {
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
