@@ -9,4 +9,5 @@
 header .main-header {
     height: 64px;
     background-color: #1a5880;
+    margin: 0 auto;
 }
