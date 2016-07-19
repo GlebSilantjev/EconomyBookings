@@ -1,0 +1,141 @@
+.offers-hot-deals {
+    font-size: 18px;
+    line-height: 80px;
+    color: #8d6a16;
+    background-color: #efe3c5;
+    height: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.offers-car {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+    height: 315px;
+}
+
+.carousel-arrow-left { 
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-top: 1px solid #a9a9a9;
+    border-left: 1px solid #a9a9a9;
+    transform: rotate(-54deg) skew(-20deg);
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    margin: auto 0;
+}
+
+.carousel-arrow-right {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-top: 1px solid #a9a9a9;
+    border-right: 1px solid #a9a9a9;
+    transform: rotate(54deg) skew(20deg);
+    top: 0;
+    bottom: 0;
+    right: 20px;
+    margin: auto 0;
+}
+
+.offers-car li {
+    width: 204px;
+    margin: 0 30px;
+}
+
+.offers-car li h3 {
+    font-size: 16px;
+    text-align: center;
+    padding-top: 24px;
+}
+
+.offers-car img {
+    display: block;
+    margin: 0 auto;
+}
+
+.car-price {
+    font-size: 22px;
+    text-align: center;
+    color: #444444;
+    font-weight: bold;
+}
+
+.car-price .fa {
+    font-size: 20px;
+}
+
+.hot-price {
+    color: #e32327;
+}
+
+.old-price {
+    text-decoration: line-through;
+    font-size: 14px;
+    color: #b5b5b5;
+}
+
+.old-price .fa {
+    font-size: 12px;
+}
+
+.btn-book-car {
+    width: 153px;
+    line-height: 42px;
+    background-color: #0073b5;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    display: block;
+    margin: 8px auto 0;
+}
+
+.car-location {
+    text-align: center;
+    color: #444444;
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+.offers-hot-locations {
+    background-color: #efe3c5;
+    text-align: center;
+}
+
+.locations-heading {
+    font-size: 18px;
+    color: #444444;
+    padding-top: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.locations-list {
+    list-style-type: none;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+
+.locations-item {
+    /*display: inline-block;*/
+    padding: 5px 0;
+    font-size: 16px;
+}
+
+.locations-item a {
+    text-decoration: none;
+    color: #8d6a16;
+}
+
+.locations-item a:hover {
+    color: #c88f06;
+}

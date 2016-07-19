@@ -1,0 +1,117 @@
+.spotlight-container {
+    height: 486px;
+    background: url("../../img/milano.jpg"), center, no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.spotlight-content {
+    margin: 0 auto;
+    width: 320px;
+    padding-top: 66px;
+}
+
+.spotlight-heading {
+    font-size: 24px;
+    color: #fff;
+    line-height: 36px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.spotlight-paragraph {
+    font-size: 13px;
+    line-height: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+.spotlight-search-box-container {
+    width: 320px;
+    height: 180px;
+    background-color: #ffcd4a;
+    margin-top: 25px;
+    position: relative;
+}
+
+.spotlight-search-box {
+    width: 280px;
+    height: 140px;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 2px solid #fff;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.spotlight-search-box input {
+    outline: none;
+    border: none;
+    height: 46px;
+    margin: 0;
+    padding: 0 10px;
+    font-size: 20px;
+    color: #000;
+    line-height: 32px;
+    width: 100%;
+}
+
+.logo {
+    width: 106px;
+    height: 44px;
+    background-color: #d4002a;
+    color: #fff;
+    text-align: center;
+    line-height: 44px;
+    font-weight: bold;
+    font-size: 28px;
+    position: relative;
+}
+
+.logo-flag {
+    position: absolute;
+    background-image: url('../../img/flag-italy.jpg');
+    width: 32px;
+    height: 20px;
+    right: -7px;
+    bottom: -5px;
+    z-index: 1;
+}
+
+.btn-start-date, .btn-end-date {
+    background-color: #ddd;
+    color: #000;
+    height: 44px;
+    margin-left: 2px;
+    flex-grow: 1;
+    position: relative;
+}
+
+/*.btn-start-date:after {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #ddd;
+    height: 44px;
+    width: 44px;
+    border: 1px solid #fff;
+    transform: rotate(45deg);
+}*/
+
+.btn-show-prices {
+    width: 100%;
+    background-color: #0073b5;
+    color: #fff;
+    height: 44px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 2px;
+}

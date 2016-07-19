@@ -1,0 +1,43 @@
+@import "normalize.css";
+@import "fonts.css";
+@import "base.css";
+@import "components/index.css";
+
+.main-container {
+
+    /*width: 100%;*/
+}
+
+/* Offers */
+
+
+
+
+
+
+
+
+
+
+
+
+/*@media (min-width: 640px) {*/
+    /*.main-nav {*/
+        /*width: 640px;*/
+    /*}*/
+
+    /*.hidden {*/
+        /*display: inline-block;*/
+    /*}*/
+/*}*/
+
+
+/*css folder css/components/car-offer.css*/
+                            /*carousel.css*/
+
+                            /*index.css -> @import "car-offer.css";*/
+                                            /*@import "carousel.css";*/
+
+            /*css/main.css -> @import components/index.css, normalize.css, base.css*/
+
+

@@ -1,0 +1,260 @@
+.main-header {
+    width: 100%;
+    background-color: #1a5880;
+    position: relative;
+}
+
+.main-nav {
+    height: 64px;
+    width: 320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn-hamburger {
+    padding: 10px;
+    border: 1px solid #5f8aa6;
+    border-radius: 3px;
+}
+
+.btn-drop-panel {
+    border: none;
+    border-radius: 2px;
+    color: #bacdd9;
+    font-size: 13px;
+    font-family: 'Open Sans', serif;
+    padding: 10px;
+}
+
+.btn-my-booking {
+    color: #fff;
+}
+
+.btn-drop-panel:active {
+    background-color: #142a3c;
+}
+
+.fa-bars {
+    color: #fff;
+}
+
+.drop-panel-container {
+    width: 100%;
+    background-color: #133f5c;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.drop-panel {
+    width: 320px;
+    background-color: #133f5c;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    list-style-type: none;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+.drop-panel > li{
+    position: relative;
+}
+
+.drop-panel > li:last-child {
+    color: #bacdd9;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.drop-panel > li:last-child:before {
+    content: "";
+    position: absolute;
+    display: inline;
+    height: 1px;
+    width: 320px;
+    background-color: #bacdd9;
+    left: -90px;
+    bottom: 35px;
+}
+
+.drop-panel .fa {
+    padding: 0 5px;
+}
+
+.phone-active {
+    width: 320px;
+    background-color: #fff;
+    border-radius: 2px;
+    position: absolute;
+    left: -4px;
+    z-index: 10;
+}
+
+.phone-active:before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+    background-color: #fff;
+    position: absolute;
+    top: -3px;
+    left: 31px;
+    z-index: -1;
+}
+
+.phone-active a[href^="tel:"]{
+    color: #000;
+    font-size: 15px;
+}
+
+.phone-active .fa-phone {
+    font-size: 18px;
+}
+
+.phone-number, .phone-comments {
+    text-align: center;
+}
+
+.phone-number {
+    padding-top: 15px;
+}
+
+.phone-comments {
+    font-size: 11px;
+    color: #2f2822;
+}
+
+.col-2 {
+    list-style-type: none;
+    padding: 20px 15px 10px;
+    font-size: 13px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.col-2 li {
+    padding: 5px 0 5px 20px;
+    width: 50%;
+}
+
+.france {
+    background-image: url('../../img/flag-1.jpg');
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.spain {
+    background-image: url('../../img/flag-2.jpg');
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.uk {
+    background-image: url('../../img/flag-3.jpg');
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.country-phone-number {
+    text-align: right;
+}
+
+.language-active {
+    width: 320px;
+    height: 240px;
+    background-color: #fff;
+    position: absolute;
+    left: -72px;
+    top: 87px;
+    z-index: 10;
+}
+
+.done-container {
+    height: 43px;
+}
+
+.btn-language-done {
+    float: right;
+    margin-right: 10px;
+    color: #1a6fca;
+    font-size: 13px;
+    border: none;
+    font-weight: bold;
+    line-height: 43px;
+}
+
+.language-list {
+    padding-top: 10px;
+    list-style-type: none;
+    width: 100%;
+}
+
+.language-list li {
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+    color: #a0a1a5;
+}
+
+.language-list .active {
+    color: #000;
+    border-top: 1px solid #d5d6da;
+    border-bottom: 1px solid #d5d6da;
+}
+
+.login-container {
+    width: 320px;
+    background-color: #fff;
+    font-size: 16px;
+    color: #d2d2d2;
+    border-radius: 4px;
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.login-container:before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+    background-color: #fff;
+    position: absolute;
+    top: -3px;
+    right: 50px;
+    z-index: 0;
+}
+
+.login-container input {
+    width: 100%;
+    line-height: 52px;
+    border-bottom: 1px solid #d2d2d2;
+    padding: 0 10px;
+    text-align: center;
+    color: #d2d2d2;
+}
+
+.btn-sign-in {
+    background-color: #0073b5;
+    width: 280px;
+    color: #fff;
+    line-height: 42px;
+    margin: 17px auto 0;
+    border-radius: 5px;
+    height: 42px;
+    display: block;
+}

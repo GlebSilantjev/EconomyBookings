@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/fonts.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
     <script src="https://use.fontawesome.com/bb5ab9fd2b.js"></script>
 </head>
 <body>
@@ -14,11 +14,64 @@
     <!-- Main Header -->
     <header class="main-header">
         <nav class="main-nav">
-            <a href="#"><img class="main-logo" src="img/main_logo.png" alt="Economy Bookings Logo"></a>
-            <button class="btn btn-hamburger"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></button>
+            <a href="#"><img src="img/main_logo.png" alt="Economy Bookings Logo"></a>
+            <button class="btn-hamburger"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></button>
+            <div class="drop-panel-container">
+                <ul class="drop-panel">
+                    <li>
+                        <button class="btn-drop-panel"><i class="fa fa-phone" aria-hidden="true"></i><i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                        <div class="phone-active hidden">
+                            <p class="phone-number"><i class="fa fa-phone" aria-hidden="true"></i>
+                            <a href="tel:+37166010858">(+371)<strong> 6-601-0858</strong></a></p>
+                            <p class="phone-comments">communication in english</p>
+                            <ul class="col-2">
+                                <li class="france">France</li>
+                                <li class="country-phone-number">+33 17 09 186 12 </li>
+                                <li class="spain">Spain</li>
+                                <li class="country-phone-number">+46 8 5051 3532</li>
+                                <li class="uk">United Kingdom</li>
+                                <li class="country-phone-number">+44 203 478 5239</li>
+                                <li class="france">Israel</li>
+                                <li class="country-phone-number">+972 3721 9636</li>
+                                <li class="spain">USA</li>
+                                <li class="country-phone-number">1 202 800 9938</li>
+                                <li class="uk">Latvia</li>
+                                <li class="country-phone-number">+371 6 601 0858</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <button class="btn-drop-panel">EN <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                        <div class="language-active hidden">
+                            <div class="done-container ">
+                                <button class="btn-language-done">Done</button>
+                            </div>
+                            <ul class="language-list">
+                                <li>English</li>
+                                <li>Esperanto</li>
+                                <li>Estonian</li>
+                                <li class="active">Finnish</li>
+                                <li>French</li>
+                                <li>Galician</li>
+                                <li>Georgian</li>
+                                <li>German</li>
+                                <li>Hungarian</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><button class="btn-drop-panel"><i class="fa fa-eur" aria-hidden="true"></i><i class="fa fa-angle-down" aria-hidden="true"></i></button></li>
+                    <li><button class="btn-drop-panel btn-my-booking">My Booking <i class="fa fa-angle-down" aria-hidden="true"></i></button></li>
+                    <div class="login-container hidden">
+                        <input type="text" name="email" placeholder="Email used for reservation" />
+                        <input type="text" name="booking_number" placeholder="Booking number" />
+                        <button class="btn-sign-in">Sign In</button>
+                    </div>
+                    <li><i class="fa fa-heart" aria-hidden="true"></i><strong>41,760</strong> users love us</li>
+                </ul>
+            </div>
         </nav>
     </header>
-    <!-- Main Header -->
+    <!-- /Main Header -->
 
     <!-- Spotlight -->
     <div class="spotlight-container">
@@ -28,18 +81,47 @@
             We help them pick up their flights and <br /> accommodation cheaply, easily and fast.</p>
             <div class="spotlight-search-box-container">
                 <div class="spotlight-search-box">
-                    <input type="text">
+                    <input type="text" title="searchBox" />
+                    <div class="logo">AVIS<div class="logo-flag"></div></div>
+                    <button class="btn-start-date">Dec 29</button>
+                    <button class="btn-end-date">Jan 11</button>
+                    <button class="btn-show-prices">Show Prices</button>
                 </div>
             </div>
         </div>
     </div>
+    <!-- /Spotlight -->
 
+    <!-- Offers -->
     <div class="offers-container">
         <h2 class="offers-hot-deals">Hot Deals in Milan from AVIS</h2>
         <ul class="offers-car">
+            <div class="carousel-arrow-left"></div>
             <li>
-                <h3 class="car-model"></h3>
+                <h3 class="car-model">Audi Q3</h3>
+                <img src="img/audi.jpg" alt="Audi Q3 Image" />
+                <p class="car-price hot-price">16,72 <i class="fa fa-eur" aria-hidden="true"></i></p>
+                <p class="car-price old-price">19,99 <i class="fa fa-eur" aria-hidden="true"></i></p>
+                <button class="btn-book-car">Book now</button>
+                <p class="car-location">at Malpensia Airport(MXP)</p>
             </li>
+            <li>
+                <h3 class="car-model">Audi Q3</h3>
+                <img src="img/audi.jpg" alt="Audi Q3 Image" />
+                <p class="car-price hot-price">16,72 <i class="fa fa-eur" aria-hidden="true"></i></p>
+                <p class="car-price old-price">19,99 <i class="fa fa-eur" aria-hidden="true"></i></p>
+                <button class="btn-book-car">Book now</button>
+                <p class="car-location">at Malpensia Airport(MXP)</p>
+            </li>
+            <li>
+                <h3 class="car-model">Audi Q3</h3>
+                <img src="img/audi.jpg" alt="Audi Q3 Image" />
+                <p class="car-price hot-price">16,72 <i class="fa fa-eur" aria-hidden="true"></i></p>
+                <p class="car-price old-price">19,99 <i class="fa fa-eur" aria-hidden="true"></i></p>
+                <button class="btn-book-car">Book now</button>
+                <p class="car-location">at Malpensia Airport(MXP)</p>
+            </li>
+            <div class="carousel-arrow-right"></div>
         </ul>
         <div class="offers-hot-locations">
             <h2 class="locations-heading">Top locations in Milan</h2>
