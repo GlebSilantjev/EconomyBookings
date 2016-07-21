@@ -1,0 +1,17 @@
+.other-cities-container {
+	background-color: #f6f6f6;
+	margin-top: 60px;
+}
+
+.other-cities {
+	width: 320px;
+	margin: 0 auto;
+}
+
+.other-cities h2 {
+	font-size: 18px;
+	text-align: center;
+	padding-bottom: 20px;
+	border-bottom: 4px solid #ddd;
+	padding-top: 30px;
+}
