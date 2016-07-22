@@ -15,3 +15,23 @@
 	border-bottom: 4px solid #ddd;
 	padding-top: 30px;
 }
+
+.cities-list {
+	font-size: 13px;
+	color: #444;
+}
+
+.cities-list li {
+	padding: 15px 0;
+	text-align: center;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+}
+
+.other-cities a {
+	color: #777;
+	display: block;
+	text-align: center;
+	margin: 20px 0;
+	font-size: 13px;
+}
