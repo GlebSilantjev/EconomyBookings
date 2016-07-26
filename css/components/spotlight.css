@@ -62,6 +62,7 @@
     color: #000;
     line-height: 32px;
     width: 100%;
+    position: relative;
 }
 
 .logo {

@@ -1,0 +1,45 @@
+.top-cities {
+    display: none;
+    width: 280px;
+    position: absolute;
+    background-color: #eee;
+    top: 55px;
+    left: -2px;
+    z-index: 20;
+    font-size: 13px;
+    color: #000;
+    /*display: flex;*/
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.top-cities:before {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 13.5px 10px 13.5px;
+    border-color: transparent transparent #ffffff transparent;
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 127px;
+}
+
+.top-cities li {
+    /*display: inline-block;*/
+    padding: 20px 22px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid #fff;
+    border-bottom: none;
+    margin: 0;
+    flex-grow: 1;
+    min-width: 25%;
+}
+
+.top-cities li:last-child {
+    background-color: #fff;
+    width: 100%;
+}

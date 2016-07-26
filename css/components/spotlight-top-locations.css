@@ -1,0 +1,48 @@
+.top-locations {
+    display: none;
+    width: 280px;
+    position: absolute;
+    background-color: #eee;
+    top: 55px;
+    left: -2px;
+    z-index: 20;
+    font-size: 13px;
+    color: #000;
+    padding-bottom: 10px;
+}
+
+.top-locations:before {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 13.5px 10px 13.5px;
+    border-color: transparent transparent #ffffff transparent;
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 127px;
+}
+
+.top-locations li {
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid #fff;
+    border-bottom: none;
+}
+
+/*.all-locations li .fa {
+    position: absolute;
+    left: 13px;
+    top: 13px;
+}*/
+
+.top-locations li:hover {
+    background-color: #b2dcff;
+    color: #0073b5;
+}
+
+.top-locations li:last-child {
+    background-color: #fff;
+}

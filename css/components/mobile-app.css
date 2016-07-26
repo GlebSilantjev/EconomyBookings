@@ -1,53 +1,46 @@
 .mobile-app-container {
-	margin-top: 40px;
-	background-image: url('../../img/mobile-app-bg.jpg');
-	height: 553px;
-	background-position: center;
+    margin-top: 40px;
+    background-image: url('../../img/mobile-app-bg.jpg');
+    height: 553px;
+    background-position: center;
 }
 
 .mobile-app {
-	width: 280px;
-	margin: 0 auto;
+    width: 280px;
+    margin: 0 auto;
 }
 
 .mobile-app h1 {
-	font-size: 32px;
-	padding-top: 40px;
-	color: #fff;
-	text-align: center;
-	font-weight: normal;
+    font-size: 32px;
+    padding-top: 40px;
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
 }
 
 .intro-paragraph {
-	color: #fff;
-	font-size: 18px;
-	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 5px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
 }
 
 .store {
-	margin: 25px auto 20px;
-	border-radius: 5px;
-	text-align: center;
-	overflow: hidden;
-	width: auto;
+    margin: 25px auto 20px;
+    border-radius: 5px;
+    text-align: center;
+    overflow: hidden;
+    width: auto;
 }
 
 .store img {
-	border-radius: 5px;
+    border-radius: 5px;
 }
 
 p.app-rating {
-	text-align: center;
-	color: #fff292;
-	font-size: 15px;
-	margin-top: 20px;
+    text-align: center;
+    color: #fff292;
+    font-size: 15px;
+    margin-top: 20px;
 }
-
-.closing-app-block {
-	background-color: #444;
-	height: 75px;
-}
-
-.

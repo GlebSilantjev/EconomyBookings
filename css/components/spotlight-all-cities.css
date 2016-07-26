@@ -1,0 +1,32 @@
+.all-cities {
+    display: none;
+    width: 280px;
+    position: absolute;
+    background-color: #fff;
+    top: 55px;
+    left: -2px;
+    z-index: 20;
+    font-size: 13px;
+    color: #000;
+    padding-bottom: 20px;
+    height: 320px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.all-cities:before {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 13.5px 10px 13.5px;
+    border-color: transparent transparent #ffffff transparent;
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 127px;
+}
+
+.all-cities li {
+    padding: 20px 16px 0;
+    font-size: 13px;
+}

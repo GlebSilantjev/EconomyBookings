@@ -1,218 +1,217 @@
 .customer-ratings-container {
-/*	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;*/
+    /*	display: flex;
+        justify-content: center;
+        flex-wrap: wrap;*/
 }
 
 .customer-ratings-heading {
-	margin: 15px;
-	text-align: center;
+    margin: 15px;
+    text-align: center;
 }
 
 .customer-ratings-heading > a {
-	text-decoration: underline;
-	color: #0073b5;
+    text-decoration: underline;
+    color: #0073b5;
 }
 
 .customer-logo-heading {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	padding: 0 50px 20px;
-	border-bottom: 4px solid #eee;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 50px 20px;
+    border-bottom: 4px solid #eee;
 }
 
 .customer-logo-heading > .logo {
-	margin-top: 34px;
+    margin-top: 34px;
 }
 
 .ratings {
-	padding: 15px 0;
+    padding: 15px 0;
 }
 
 .ratings-rank {
-	text-align: center;
-	font-size: 20px;
-	padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
 }
 
 .all-reviews-link {
-	padding-top: 10px;
-	text-align: center;
-	color: #338fc4;
+    padding-top: 10px;
+    text-align: center;
+    color: #338fc4;
 }
 
 .all-reviews-link a {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
-svg{
-	width: 94px;
-	display: block;
-	margin: auto;
+svg {
+    width: 94px;
+    display: block;
+    margin: auto;
 }
-svg text{
-	text-anchor: middle;
-	font-size: 80px;
-	font-family: sans-serif;
-	fill: #0073b5;
+
+svg text {
+    text-anchor: middle;
+    font-size: 80px;
+    font-family: sans-serif;
+    fill: #0073b5;
 }
 
 .criteria-ranking {
-	display: flex;
-	list-style-type: none;
-	flex-flow: row wrap;
-	justify-content: space-between;
-	background-color: #f3f3f3;
-	width: 300px;
-	margin: 0 auto;
-	padding: 11px 20px 5px;
-	margin-top: 20px
+    display: flex;
+    list-style-type: none;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: #f3f3f3;
+    width: 300px;
+    margin: 0 auto;
+    padding: 11px 20px 5px;
+    margin-top: 20px
 }
 
 .criteria-ranking li {
-	border-bottom: 1px solid #ddd;
-	padding: 14px 0;
+    border-bottom: 1px solid #ddd;
+    padding: 14px 0;
 }
 
-.criteria-ranking li:last-child, .criteria-ranking li:nth-last-child(2){
-	border: none;
+.criteria-ranking li:last-child, .criteria-ranking li:nth-last-child(2) {
+    border: none;
 }
 
 .criteria {
-	width: 85%;
-	font-size: 13px;
+    width: 85%;
+    font-size: 13px;
 }
 
 .points {
-	width: 15%;
-	color: #0073b5;
-	font-size: 15px;
-	text-align: right;
+    width: 15%;
+    color: #0073b5;
+    font-size: 15px;
+    text-align: right;
 }
 
 .review-comments {
-	width: 300px;
-	margin-top: 30px;
-	margin: 0 auto;
+    width: 300px;
+    margin-top: 30px;
+    margin: 0 auto;
 }
 
 .review-comments ul {
-	display: flex;
-	justify-content: space-between;
-	flex-wrap:wrap;
-	list-style-type: none;
-	margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-top: 35px;
 }
 
 .review-comments ul:last-child {
-	padding-bottom: 15px;
-	margin-bottom: 20px;
-	border-bottom: 1px solid #bfbfbf;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #bfbfbf;
 }
 
 .review-comments ul a {
-	text-decoration: underline;
-	color: #0073b5;
+    text-decoration: underline;
+    color: #0073b5;
 }
 
 .review-comments ul:first-child {
-	margin-top: 0;
+    margin-top: 0;
 }
 
-
 .poster-name {
-	font-size: 14px;
-	font-weight: bold;
-	width: 50%;
+    font-size: 14px;
+    font-weight: bold;
+    width: 50%;
 }
 
 .poster-rating {
-	font-size: 18px;
-	color: #1a5880;
-	width: 50%;
-	text-align: right;
+    font-size: 18px;
+    color: #1a5880;
+    width: 50%;
+    text-align: right;
 }
 
 .poster-country {
-	width: 50%;
-	font-size: 12px;
-	color: #777;
-	padding-left: 20px;
-	margin-top: 10px;
-	padding-bottom: 10px;
-	border-bottom: 1px dotted #bfbfbf;
+    width: 50%;
+    font-size: 12px;
+    color: #777;
+    padding-left: 20px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #bfbfbf;
 }
 
 .post-date {
-	text-align: right;
-	width: 50%;
-	font-size: 12px;
-	color: #777;
-	margin-top: 10px;
-	padding-bottom: 10px;
-	border-bottom: 1px dotted #bfbfbf;
+    text-align: right;
+    width: 50%;
+    font-size: 12px;
+    color: #777;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #bfbfbf;
 }
 
 .latvia {
-	background-image: url('../../img/flag-3.jpg');
-	background-repeat: no-repeat;
+    background-image: url('../../img/flag-3.jpg');
+    background-repeat: no-repeat;
 }
 
 .portugal {
-	background-image: url('../../img/flag-1.jpg');
-	background-repeat: no-repeat;
+    background-image: url('../../img/flag-1.jpg');
+    background-repeat: no-repeat;
 }
 
 .netherlands {
-	background-image: url('../../img/flag-2.jpg');
-	background-repeat: no-repeat;
+    background-image: url('../../img/flag-2.jpg');
+    background-repeat: no-repeat;
 }
 
 .positive-feedback {
-	margin-top: 10px;
-	padding-left: 25px;
-	font-size: 13px;
-	background-image: url('../../img/plus.png');
-	background-repeat: no-repeat;
-	background-position: 0 1px;
+    margin-top: 10px;
+    padding-left: 25px;
+    font-size: 13px;
+    background-image: url('../../img/plus.png');
+    background-repeat: no-repeat;
+    background-position: 0 1px;
 }
 
 .negative-feedback {
-	margin-top: 10px;
-	padding-left: 25px;
-	font-size: 13px;
-	background-image: url('../../img/minus.png');
-	background-repeat: no-repeat;
-	background-position: 0 5px;
+    margin-top: 10px;
+    padding-left: 25px;
+    font-size: 13px;
+    background-image: url('../../img/minus.png');
+    background-repeat: no-repeat;
+    background-position: 0 5px;
 }
 
 .review-comments .all-reviews-link {
-	text-align: left;
-	font-size: 13px;
-	text-decoration: none;
-	display: block;
-	margin-top: 20px;
-	border-top: 1px solid #bfbfbf;
-	padding-top: 15px;
+    text-align: left;
+    font-size: 13px;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    border-top: 1px solid #bfbfbf;
+    padding-top: 15px;
 }
 
-
 @media (min-width: 640px) {
-	.customer-logo-heading {
-		justify-content: space-between;
-		align-items: baseline;
-	}
+    .customer-logo-heading {
+        justify-content: space-between;
+        align-items: baseline;
+    }
 
-	.customer-logo-heading > .logo {
-		margin-top: 0;
-		margin-right: 7px;
-		order: 2;
-	}
+    .customer-logo-heading > .logo {
+        margin-top: 0;
+        margin-right: 7px;
+        order: 2;
+    }
 
-	.customer-logo-heading {
-		padding: 10px 0;
-		margin: 0;
-	}
+    .customer-logo-heading {
+        padding: 10px 0;
+        margin: 0;
+    }
 
 }

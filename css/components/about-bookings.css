@@ -1,180 +1,181 @@
 .about-bookings-container {
-	width: 320px;
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
 
 .about-bookings-container h2 {
-	font-size: 22px;
-	color: #777;
-	text-align: center;
-	border-bottom: 4px solid #eee;
-	width: 300px;
-	margin: 0 auto;
-	font-weight: normal;
-	padding-top: 30px;
-	padding-bottom: 15px;
+    font-size: 22px;
+    color: #777;
+    text-align: center;
+    border-bottom: 4px solid #eee;
+    width: 300px;
+    margin: 0 auto;
+    font-weight: normal;
+    padding-top: 30px;
+    padding-bottom: 15px;
 }
 
 .why-us {
-	width: 300px;
+    width: 300px;
 }
 
 .why-us h3 {
-	font-size: 18px;
-	color: #333;
-	font-weight: normal;
-	padding-top: 27px;
+    font-size: 18px;
+    color: #333;
+    font-weight: normal;
+    padding-top: 27px;
 }
 
 .why-us ul {
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
 .why-us li {
-	background-image: url('../../img/check.png');
-	background-repeat: no-repeat;
-	background-position: 0 5px;
-	padding-left: 30px;
-	padding-right: 15px;
-	font-size: 15px;
-	color: #333;
-	margin-bottom: 25px;
-	line-height: 24px;
+    background-image: url('../../img/check.png');
+    background-repeat: no-repeat;
+    background-position: 0 5px;
+    padding-left: 30px;
+    padding-right: 15px;
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 25px;
+    line-height: 24px;
 }
 
 .customer-experience {
-	border: 1px dashed #bccad7;
-	padding: 17px;
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
+    border: 1px dashed #bccad7;
+    padding: 17px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .customer-name {
-	font-size: 14px;
-	font-weight: bold;
-	width: 50%;
+    font-size: 14px;
+    font-weight: bold;
+    width: 50%;
 }
 
 .customer-rating {
-	color: #ffcd4a;
-	width: 50%;
-	text-align: right;
+    color: #ffcd4a;
+    width: 50%;
+    text-align: right;
 }
 
 .customer-comment {
-	font-size: 13px;
-	line-height: 18px;
-	margin: 10px 0;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 10px 0;
 }
 
 .read-more {
-	font-size: 13px;
-	color: #0073b5;
-	text-decoration: underline;
+    font-size: 13px;
+    color: #0073b5;
+    text-decoration: underline;
 }
 
 .contact-block {
-	width: 320px;
-	margin-top: 20px;
+    width: 320px;
+    margin-top: 20px;
 }
 
 .contact-block a {
-	text-decoration: underline;
-	color: #0073b5;
+    text-decoration: underline;
+    color: #0073b5;
 }
 
 .ask-question {
-	background-color: #eee;
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .contact-block h3 {
-	text-align: center;
-	font-size: 18px;
-	color: #444;
-	font-weight: normal;
-	padding-top: 23px;
+    text-align: center;
+    font-size: 18px;
+    color: #444;
+    font-weight: normal;
+    padding-top: 23px;
 }
 
 .ask-question p {
-	font-size: 14px;
-	color: #444;
-	text-align: center;
-	margin-top: 15px;
+    font-size: 14px;
+    color: #444;
+    text-align: center;
+    margin-top: 15px;
 }
 
 .contact-block button {
-	width: 280px;
-	background-color: #0073b5;
-	color: #fff;
-	padding: 15px 0;
-	border-radius: 5px;
-	margin: 15px 0;
+    width: 280px;
+    background-color: #0073b5;
+    color: #fff;
+    padding: 15px 0;
+    border-radius: 5px;
+    margin: 15px 0;
 }
 
 .email {
-	display: block;
-	margin-bottom: 20px;
+    display: block;
+    margin-bottom: 20px;
 }
 
 .book-by-phone {
-	background-color: #ddd;
+    background-color: #ddd;
 }
 
 .phone-number {
-	color: #0073b5;
-	font-size: 24px;
-	display: block;
-	width: 280px;
-	margin: 0 auto;
-	padding-bottom: 15px;
-	border-bottom: 1px dashed #f26522;
-	text-decoration: none;
+    color: #0073b5;
+    font-size: 24px;
+    display: block;
+    width: 280px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #f26522;
+    text-decoration: none;
 }
 
 .social {
-	font-size: 15px;
-	color: #777;
-	text-align: center;
-	margin-top: 15px;
+    font-size: 15px;
+    color: #777;
+    text-align: center;
+    margin-top: 15px;
 }
 
 .social-icons {
-	display: flex;
-	justify-content: center;
-	margin-top: 15px;
-	padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    padding-bottom: 20px;
 }
 
 .social-icons a {
-	font-size: 35px;
-	color: #6e6e6e;	
-	padding: 0 15px;
+    font-size: 35px;
+    color: #6e6e6e;
+    padding: 0 15px;
 }
 
 .subscription {
-	background-color: #eee;
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .subscription p {
-	font-size: 14px;
-	color: #444;
-	text-align: center;
-	margin: 15px 0;
+    font-size: 14px;
+    color: #444;
+    text-align: center;
+    margin: 15px 0;
 }
 
 .subscription input {
-	width: 280px;
-	padding: 15px 0;
-	font-size: 14px;
-	color: #aaa;
-	text-align: center;
+    width: 280px;
+    padding: 15px 0;
+    font-size: 14px;
+    color: #aaa;
+    text-align: center;
 }
