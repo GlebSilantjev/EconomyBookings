@@ -7,6 +7,7 @@
 .customer-ratings-heading {
     margin: 15px;
     text-align: center;
+    width: 100%;
 }
 
 .customer-ratings-heading > a {

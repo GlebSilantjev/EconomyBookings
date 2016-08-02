@@ -19,6 +19,10 @@
     text-align: center;
 }
 
+.heading-rating {
+    display: none;
+}
+
 .spotlight-paragraph {
     font-size: 13px;
     line-height: 24px;
@@ -102,16 +106,32 @@
     position: relative;
 }
 
-/*.btn-start-date:after {
-    content: "";
-    display: block;
+.btn-start-date:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 23px 0 23px 12px;
+    border-color: transparent transparent transparent #fff;
     position: absolute;
-    background-color: #ddd;
-    height: 44px;
-    width: 44px;
-    border: 1px solid #fff;
-    transform: rotate(45deg);
-}*/
+    top: -1px;
+    right: -13px;
+    z-index: 10;
+}
+
+.btn-start-date:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 23px 0px 23px 12px;
+    border-color: transparent transparent transparent #ddd;
+    position: absolute;
+    top: -1px;
+    right: -11px;
+    z-index: 11;
+}
+
 
 .btn-show-prices {
     width: 100%;
@@ -121,4 +141,101 @@
     font-weight: bold;
     font-size: 18px;
     margin-top: 2px;
+}
+
+.spotlight-benefits-container {
+    display: none;
+    width: 640px;
+    margin-top: 20px;
+}
+
+/* Media Queries */
+
+@media (min-width: 640px) {
+    .spotlight-content {
+        width: 640px;
+    }
+
+    .spotlight-search-box-container {
+        width: 640px;
+        border-radius: 5px;
+    }
+
+    .spotlight-search-box {
+        width: 600px;
+        height: 94px;
+    }
+
+    .btn-show-prices {
+        margin: 0;
+        width: auto;
+        flex-grow: 1;
+        border-radius: 2px;
+        margin-left: 2px;
+    }
+
+    .spotlight-heading {
+        font-size: 32px;
+    }
+
+    .heading-rating {
+        display: inline-block;
+    }
+
+    .heading-rating > svg {
+        width: 50px;
+    }
+
+    .spotlight-paragraph {
+        font-size: 16px;
+    }
+
+    .spotlight-benefits-container {
+        height: 72px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .benefits-list {
+        flex-grow: 1;
+        font-size: 14px;
+        color: #fff;
+    }
+
+    .benefits-list li {
+        padding: 10px;
+    }
+
+    .benefits-list li .fa-check {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .btn-end-date:after {
+        content: '';
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 23px 0 23px 12px;
+        border-color: transparent transparent transparent #fff;
+        position: absolute;
+        top: -1px;
+        right: -14px;
+        z-index: 10;
+    }
+
+    .btn-end-date:before {
+        content: '';
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 23px 0px 23px 12px;
+        border-color: transparent transparent transparent #ddd;
+        position: absolute;
+        top: -1px;
+        right: -12px;
+        z-index: 11;
+    }
 }
