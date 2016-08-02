@@ -16,12 +16,12 @@
         <nav class="main-nav">
             <a href="#"><img src="img/main_logo.png" alt="Economy Bookings Logo"></a>
             <button class="btn-hamburger"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></button>
-            <div class="drop-panel-container hidden">
+            <div class="drop-panel-container">
                 <ul class="drop-panel">
                     <li>
                         <button class="btn-drop-panel"><i class="fa fa-phone" aria-hidden="true"></i><i
                                 class="fa fa-angle-down" aria-hidden="true"></i></button>
-                        <div class="phone-active hidden">
+                        <div class="phone-active">
                             <p class="phone-number"><i class="fa fa-phone" aria-hidden="true"></i>
                                 <a href="tel:+37166010858">(+371)<strong> 6-601-0858</strong></a></p>
 
@@ -43,12 +43,23 @@
                         </div>
                     </li>
                     <li>
-                        <button class="btn-drop-panel">EN <i class="fa fa-angle-down" aria-hidden="true"></i></button>
-                        <div class="language-active hidden">
-                            <div class="done-container ">
+                        <button class="btn-drop-panel">EN <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        <select class="opacity">
+                                <option value="English">English</option>
+                                <option value="Eperanto">Esperanto</option>
+                                <option value="Estonian">Estonian</option>
+                                <option value="Finnish">Finnish</option>
+                                <option value="French">French</option>
+                            </select>
+                        </button>
+                        <!-- <div class="language-active"> -->
+                            
+
+
+                            <!-- <div class="done-container ">
                                 <button class="btn-language-done">Done</button>
-                            </div>
-                            <ul class="language-list">
+                            </div> -->
+                            <!-- <ul class="language-list">
                                 <li>English</li>
                                 <li>Esperanto</li>
                                 <li>Estonian</li>
@@ -58,8 +69,8 @@
                                 <li>Georgian</li>
                                 <li>German</li>
                                 <li>Hungarian</li>
-                            </ul>
-                        </div>
+                            </ul> -->
+                        <!-- </div> -->
                     </li>
                     <li>
                         <button class="btn-drop-panel"><i class="fa fa-eur" aria-hidden="true"></i><i
@@ -67,13 +78,13 @@
                     </li>
                     <li>
                         <button class="btn-drop-panel btn-my-booking">My Booking <i class="fa fa-angle-down" aria-hidden="true"></i></button>
-                    </li>
-                    <div class="login-container hidden">
+                        <div class="login-container">
                         <input type="text" name="email" placeholder="Email used for reservation"/>
                         <input type="text" name="booking_number" placeholder="Booking number"/>
                         <button class="btn-sign-in">Sign In</button>
-                    </div>
-                    <li><i class="fa fa-heart" aria-hidden="true"></i><strong>41,760</strong> users love us</li>
+                        </div>
+                    </li>
+                    <li><i class="fa fa-heart" aria-hidden="true"></i><strong>41,760</strong> <!-- users love us --></li>
                 </ul>
             </div>
         </nav>
@@ -143,6 +154,64 @@
                         <div class="logo-flag"></div>
                     </div>
                     <button class="btn-start-date">Dec 29</button>
+                    <div class="calendar-container">
+                        <ul class="month">
+                            <li class="arrow-left"></li>
+                            <li><strong>December</strong> 2014</li>
+                            <li class="arrow-right"></li>
+                        </ul>
+                        <ul class="weekdays">
+                            <li>S</li>
+                            <li>M</li>
+                            <li>T</li>
+                            <li>W</li>
+                            <li>T</li>
+                            <li>F</li>
+                            <li>S</li>
+                        </ul>
+                        <ul class="days">
+                            <div class="week">
+                                <li>1</li>
+                                <li>2</li>
+                            </div>
+                            <div class="week">
+                                <li>3</li>
+                                <li>4</li>
+                                <li>5</li>
+                                <li>6</li>
+                                <li>7</li>
+                                <li>8</li>
+                                <li>9</li>
+                            </div>
+                            <div class="week">
+                                <li>10</li>
+                                <li>11</li>
+                                <li>12</li>
+                                <li>13</li>
+                                <li>14</li>
+                                <li>15</li>
+                                <li>16</li>
+                            </div>
+                            <div class="week">
+                                <li>17</li>
+                                <li>18</li>
+                                <li>19</li>
+                                <li>20</li>
+                                <li>21</li>
+                                <li>22</li>
+                                <li class="free-date">23</li>
+                            </div>
+                            <div class="week">
+                                <li class="free-date">24</li>
+                                <li class="free-date">25</li>
+                                <li class="free-date">26</li>
+                                <li class="free-date">27</li>
+                                <li class="free-date start-date">28</li>
+                                <li class="free-date between-date">29</li>
+                                <li class="free-date between-date">30</li>
+                            </div>
+                        </ul>
+                    </div>
                     <button class="btn-end-date">Jan 11</button>
                     <button class="btn-show-prices">Show Prices</button>
                 </div>
