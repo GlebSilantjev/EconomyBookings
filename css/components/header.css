@@ -53,7 +53,7 @@
     left: 0;
     right: 0;
     z-index: 10;
-    display: none;
+    /*display: none;*/
 }
 
 .drop-panel {
@@ -86,7 +86,7 @@
     height: 1px;
     width: 320px;
     background-color: #bacdd9;
-    left: -90px;
+    left: -82px;
     bottom: 35px;
 }
 
@@ -100,8 +100,8 @@
     border-radius: 2px;
     position: absolute;
     left: -4px;
-    z-index: 10;
-    display: none;
+    z-index: 12;
+    /*display: none;*/
 }
 
 .phone-active:before {
@@ -139,15 +139,26 @@
     color: #2f2822;
 }
 
-.col-2 {
+.phone-number-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+    height: 165px;
+    overflow: hidden;
+}
+
+.phone-number-list {
     list-style-type: none;
-    padding: 20px 15px 10px;
+    padding: 10px 15px 10px;
     font-size: 13px;
     display: flex;
     flex-flow: row wrap;
+    
 }
 
-.col-2 li {
+.phone-number-list li {
     padding: 5px 0 5px 20px;
     width: 50%;
 }
@@ -155,19 +166,19 @@
 .france {
     background-image: url('../../img/flag-1.jpg');
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position: left 8px;
 }
 
 .spain {
     background-image: url('../../img/flag-2.jpg');
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position: left 8px;
 }
 
 .uk {
     background-image: url('../../img/flag-3.jpg');
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position: left 8px;
 }
 
 .country-phone-number {
@@ -307,5 +318,43 @@
         border: 1px solid rgba(255, 255, 255, 0.3);
     }
 
-    
+    .phone-active {
+        width: 610px;
+        display: block;
+        left: -265px;
+        top: 52px;
+    }
+
+    .phone-active:before{
+        left: 288px;
+    }
+
+    .phone-number-list {
+        flex: 1 1 0;
+        position: relative;
+    }
+
+    .phone-number-list-container {
+        border: none;
+        height: 290px;
+    }
+
+    .phone-number-list:after {
+        content: "";
+        width: 1px;
+        height: 94%;
+        background-color: #ddd;
+        position: absolute;
+        top: 6px;
+        right: 0;
+    }  
+
+    .phone-number-list:last-child:after {
+        display: none;
+    }
+
+    .likes {
+        display: none;
+    }
+
 }
