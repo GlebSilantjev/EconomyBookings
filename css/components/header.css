@@ -101,7 +101,7 @@
     position: absolute;
     left: -4px;
     z-index: 12;
-    /*display: none;*/
+    display: none;
 }
 
 .phone-active:before {
@@ -193,21 +193,6 @@
     left: 6px;
 }
 
-.language-active {
-/*    width: 320px;
-    height: 240px;
-    background-color: #fff;
-    position: absolute;
-    left: -72px;
-    top: 87px;
-    z-index: 10;*/
-    display: none;
-}
-
-.done-container {
-    height: 43px;
-}
-
 .btn-language-done {
     float: right;
     margin-right: 10px;
@@ -216,25 +201,6 @@
     border: none;
     font-weight: bold;
     line-height: 43px;
-}
-
-.language-list {
-    padding-top: 10px;
-    list-style-type: none;
-    width: 100%;
-}
-
-.language-list li {
-    width: 100%;
-    text-align: center;
-    padding: 5px 0;
-    color: #a0a1a5;
-}
-
-.language-list .active {
-    color: #000;
-    border-top: 1px solid #d5d6da;
-    border-bottom: 1px solid #d5d6da;
 }
 
 .login-container {
@@ -296,7 +262,6 @@
         position: relative;
         background-color: inherit;
         top: 0;
-
     }
 
     .drop-panel {
@@ -320,7 +285,7 @@
 
     .phone-active {
         width: 610px;
-        display: block;
+        /*display: block;*/
         left: -265px;
         top: 52px;
     }
@@ -354,6 +319,72 @@
     }
 
     .likes {
+        display: none;
+    }
+
+    .language-active {
+        width: 240px;
+        background-color: #fff;
+        position: absolute;
+        left: -95px;
+        top: 53px;
+        z-index: 10;
+        display: none;
+        /*display: flex;*/
+        flex-wrap: wrap;
+        border-radius: 5px;
+        padding-bottom: 15px;
+    }
+
+    .language-active:after {
+        content: "";
+        display: block;
+        width: 10px;
+        height: 10px;
+        transform: rotate(45deg);
+        background-color: #fff;
+        position: absolute;
+        top: -3px;
+        left: 115px;
+        z-index: -1;
+    }
+
+    .opacity {
+        display: none;
+    }
+
+    .language-list {
+        padding-top: 20px;
+        width: 100%;
+        font-size: 13px;
+        flex: 1 1 0;
+        position: relative;
+    }
+
+    .language-list li {
+        padding: 10px 20px;
+    }
+
+    .language-list .active {
+        color: #1a5880;
+    }
+
+    .language-list li:hover {
+        background-color: #1a587f;
+        color: #fff;
+    }
+
+    .language-list:after {
+        content: "";
+        width: 1px;
+        height: 97%;
+        background-color: #ddd;
+        position: absolute;
+        top: 6px;
+        right: 0;
+    }  
+
+    .phone-number-list:last-child:after {
         display: none;
     }
 
