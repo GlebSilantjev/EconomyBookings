@@ -199,20 +199,43 @@ svg text {
 }
 
 @media (min-width: 640px) {
+
+
     .customer-logo-heading {
+        width: 640px;
         justify-content: space-between;
         align-items: baseline;
+        padding: 30px 0 20px;
+        margin: 0 auto;
     }
 
     .customer-logo-heading > .logo {
         margin-top: 0;
-        margin-right: 7px;
         order: 2;
     }
 
-    .customer-logo-heading {
+    .customer-ratings-heading {
         padding: 10px 0;
         margin: 0;
+        width: auto;
+        font-size: 24px;
+    }
+
+    .average-ratings {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0 auto;
+        width: 640px;
+    }
+
+    .ratings {
+        padding-top: 30px;
+    }
+
+    .review-comments {
+        padding-top: 30px;
+        margin: 0 0;
     }
 
 }
