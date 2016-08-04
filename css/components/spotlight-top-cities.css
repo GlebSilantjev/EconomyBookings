@@ -1,5 +1,4 @@
 .top-cities {
-    display: none;
     width: 280px;
     position: absolute;
     background-color: #eee;
@@ -8,10 +7,9 @@
     z-index: 20;
     font-size: 13px;
     color: #000;
-    /*display: flex;*/
+    display: flex;
+    display: none;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    flex-direction: row;
 }
 
 .top-cities:before {
@@ -27,7 +25,6 @@
 }
 
 .top-cities li {
-    /*display: inline-block;*/
     padding: 20px 22px;
     text-align: center;
     font-size: 15px;
@@ -35,11 +32,28 @@
     border: 1px solid #fff;
     border-bottom: none;
     margin: 0;
-    flex-grow: 1;
-    min-width: 25%;
+    flex:1 1 25%;
 }
 
-.top-cities li:last-child {
+.show-all-cities {
     background-color: #fff;
     width: 100%;
+    color: #0073b5;;
+}
+
+
+@media (min-width: 640px) {
+    .top-cities {
+        width: 600px;
+    }
+
+    .top-cities li {
+        padding: 20px 10px;
+        flex: 1 1 auto;
+    }
+
+    .show-all-cities {
+        flex-basis: 100%;
+        text-transform: uppercase;
+    }
 }
