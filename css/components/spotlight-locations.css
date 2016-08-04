@@ -27,3 +27,19 @@
     padding: 20px 16px 0;
     font-size: 13px;
 }
+
+.locations li:hover {
+    background-color: #b2dcff;
+}
+
+
+@media (min-width: 640px) {
+    .locations {
+        width: 210px;
+        left: 106px;
+    }
+
+    .locations:before {
+        left: 20px;
+    }
+}

@@ -1,7 +1,7 @@
 
 
 .top-locations {
-    /*display: none;*/
+    display: none;
     width: 280px;
     position: absolute;
     background-color: #eee;
@@ -49,6 +49,7 @@
     .top-locations {
         width: 600px;
         display: flex;
+        display: none;
         flex-wrap: wrap;
         padding-bottom: 0;
     }
