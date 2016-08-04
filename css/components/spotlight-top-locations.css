@@ -1,5 +1,7 @@
+
+
 .top-locations {
-    display: none;
+    /*display: none;*/
     width: 280px;
     position: absolute;
     background-color: #eee;
@@ -32,12 +34,6 @@
     border-bottom: none;
 }
 
-/*.all-locations li .fa {
-    position: absolute;
-    left: 13px;
-    top: 13px;
-}*/
-
 .top-locations li:hover {
     background-color: #b2dcff;
     color: #0073b5;
@@ -45,4 +41,24 @@
 
 .top-locations li:last-child {
     background-color: #fff;
+}
+
+
+
+@media (min-width: 640px) {
+    .top-locations {
+        width: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 0;
+    }
+
+    .top-locations li {
+        padding: 20px 25px;
+        flex: 1 1 auto;
+    }
+
+    .show-all-locations {
+        flex-basis: 100%;
+    }
 }
