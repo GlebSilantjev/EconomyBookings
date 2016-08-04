@@ -30,3 +30,15 @@
     padding: 20px 16px 0;
     font-size: 13px;
 }
+
+
+@media (min-width: 640px) {
+    .all-cities {
+        width: 210px;
+        left: 46px;
+    }
+
+    .all-cities:before {
+        left: 20px;
+    }
+}
