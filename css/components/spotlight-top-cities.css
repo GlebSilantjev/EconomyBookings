@@ -1,5 +1,5 @@
 .top-cities {
-    width: 280px;
+    width: calc(100% + 4px);
     position: absolute;
     background-color: #eee;
     top: 55px;
@@ -35,25 +35,22 @@
     flex:1 1 25%;
 }
 
-.show-all-cities {
+li.show-all-cities {
     background-color: #fff;
     width: 100%;
-    color: #0073b5;;
+    color: #0073b5;
+    flex-basis: 100%;
 }
 
 
 @media (min-width: 640px) {
-    .top-cities {
-        width: 600px;
-    }
 
     .top-cities li {
         padding: 20px 10px;
         flex: 1 1 auto;
     }
 
-    .show-all-cities {
-        flex-basis: 100%;
+    .show-all-cities {;
         text-transform: uppercase;
     }
 }

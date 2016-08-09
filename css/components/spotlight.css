@@ -1,5 +1,5 @@
 .spotlight-container {
-    height: 486px;
+    /*height: 486px;*/
     background: url("../../img/milano.jpg"), center, no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
@@ -7,7 +7,6 @@
 
 .spotlight-content {
     margin: 0 auto;
-    width: 320px;
     padding-top: 66px;
 }
 
@@ -17,6 +16,7 @@
     line-height: 36px;
     font-weight: normal;
     text-align: center;
+    margin: 0 15px;
 }
 
 .heading-rating {
@@ -28,27 +28,21 @@
     line-height: 24px;
     color: #fff;
     text-align: center;
+    margin: 0 15px;
 }
 
 .spotlight-search-box-container {
-    width: 320px;
-    height: 180px;
+    margin: 0 15px;
+    padding: 20px 20px;
     background-color: #ffcd4a;
     margin-top: 25px;
     position: relative;
 }
 
 .spotlight-search-box {
-    width: 280px;
-    height: 140px;
-    position: absolute;
     background-color: #fff;
     border-radius: 3px;
     border: 2px solid #fff;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
     margin: auto auto;
     display: flex;
     flex-wrap: wrap;
@@ -56,7 +50,7 @@
     align-content: flex-start;
 }
 
-.spotlight-search-box input {
+.spotlight-search-box form {
     outline: none;
     border: none;
     height: 46px;
@@ -65,8 +59,21 @@
     font-size: 20px;
     color: #000;
     line-height: 32px;
-    width: 100%;
+    flex-basis: 100%;
     position: relative;
+}
+
+.spotlight-search-box form input {
+/*    outline: none;
+    border: none;
+    height: 46px;
+    margin: 0;
+    padding: 0 10px;
+    font-size: 20px;
+    color: #000;
+    line-height: 32px;
+    width: 100%;
+    position: relative;*/
 }
 
 .logo {
@@ -144,26 +151,35 @@
 }
 
 .spotlight-benefits-container {
-    display: none;
-    width: 640px;
     margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.benefits-list {
+        font-size: 14px;
+        color: #fff;
+}
+
+.benefits-list li {
+        padding: 10px 0;
+}
+
+.benefits-list li .fa-check {
+        margin-right: 10px;
+}
+
+.benefits-list:not(:nth-child(-n+2)) {
+    display: none;
 }
 
 /* Media Queries */
 
 @media (min-width: 640px) {
-    .spotlight-content {
-        width: 640px;
-    }
 
     .spotlight-search-box-container {
-        width: 640px;
         border-radius: 5px;
-    }
-
-    .spotlight-search-box {
-        width: 600px;
-        height: 94px;
     }
 
     .btn-show-prices {
@@ -190,27 +206,12 @@
         font-size: 16px;
     }
 
-    .spotlight-benefits-container {
-        height: 72px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        overflow: hidden;
+    .benefits-list:not(:nth-child(-n+2)) {
+        display: block;
     }
 
-    .benefits-list {
-        flex-grow: 1;
-        font-size: 14px;
-        color: #fff;
-    }
-
-    .benefits-list li {
-        padding: 10px;
-    }
-
-    .benefits-list li .fa-check {
-        margin-left: 10px;
-        margin-right: 10px;
+    .benefits-list:last-child {
+        display: none;
     }
 
     .btn-end-date:after {

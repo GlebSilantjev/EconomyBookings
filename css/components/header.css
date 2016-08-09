@@ -5,13 +5,10 @@
 }
 
 .main-nav {
-    height: 64px;
-    width: 320px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 15px;
+    padding: 12px 15px;
 }
 
 .hidden {
@@ -53,7 +50,7 @@
     left: 0;
     right: 0;
     z-index: 10;
-    /*display: none;*/
+    display: none;
 }
 
 .drop-panel {
@@ -257,9 +254,6 @@
 }
 
 @media (min-width: 640px) {
-    .main-nav {
-        width: 640px;
-    }
 
     .btn-hamburger {
         display: none;

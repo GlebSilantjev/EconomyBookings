@@ -2,7 +2,7 @@
 
 .top-locations {
     display: none;
-    width: 280px;
+    width: calc(100% + 4px);
     position: absolute;
     background-color: #eee;
     top: 55px;

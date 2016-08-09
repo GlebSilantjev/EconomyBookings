@@ -1,13 +1,12 @@
 .mobile-app-container {
     margin-top: 40px;
     background-image: url('../../img/mobile-app-bg.jpg');
-    height: 553px;
+    background-repeat: no-repeat;
     background-position: center;
 }
 
 .mobile-app {
-    width: 280px;
-    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .mobile-app h1 {
@@ -31,7 +30,7 @@
     border-radius: 5px;
     text-align: center;
     overflow: hidden;
-    width: auto;
+    width: 234px;
 }
 
 .store img {
@@ -43,4 +42,50 @@ p.app-rating {
     color: #fff292;
     font-size: 15px;
     margin-top: 20px;
+}
+
+.rental-news-block {
+    background-color: #444;
+    padding: 27px 0;
+}
+
+.rental-news-logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.rental-news-logos img {
+    margin-right: 25px;
+}
+
+
+@media (min-width: 640px) {
+
+    .mobile-app-container {
+        /*height: 640px;*/
+    }
+
+    .mobile-app {
+        width: 380px;
+        margin: 0 0;
+    }
+
+    .mobile-app h1 {
+        font-size: 50px;
+        font-weight: normal;
+    }
+
+    .intro-paragraph {
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .store {
+        text-align: left;
+        margin-left: 10px;
+    }
+
+
 }

@@ -1,46 +1,36 @@
 .footer {
     background-color: #555;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.rental-news-block {
-    width: 100%;
-    background-color: #444;
-    padding: 27px 0;
-}
-
-.rental-news-logos {
-    width: 320px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-content: center;
+    flex-direction: column;
 }
 
 .subscribe-block {
-    width: 320px;
     background-color: #444;
     padding: 25px 20px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .subscribe-block h2 {
     font-size: 22px;
     color: #ccc;
     font-weight: normal;
+    text-align: center;
 }
 
 .subscribe-block p {
     font-size: 16px;
     color: #aaa;
     margin-top: 15px;
+    text-align: center;
+}
+
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
 }
 
 .subscribe-block input {
-    width: 280px;
     border-radius: 5px;
     font-size: 16px;
     color: #3f3f3f;
@@ -50,7 +40,6 @@
 }
 
 .subscribe-block button {
-    width: 280px;
     border-radius: 5px;
     padding: 17px 0;
     text-align: center;
@@ -60,15 +49,14 @@
 }
 
 .footer-social {
-    width: 280px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 0 auto;
+    flex-direction: column;
+    padding: 0 20px;
 }
 
 .footer-navigation {
-    width: 280px;
     border-radius: 5px;
     font-size: 14px;
     color: #444;
@@ -89,7 +77,6 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 280px;
     margin-bottom: 20px;
 }
 
@@ -98,7 +85,7 @@
 }
 
 .copyright-block {
-    height: 111px;
+    padding: 20px 0;
     background-image: url('../../img/footer-copyright-bg.jpg');
     width: 100%;
     display: flex;

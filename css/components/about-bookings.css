@@ -1,9 +1,7 @@
 .about-bookings-container {
-    width: 320px;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    margin: 0 auto;
+    flex-direction: column;
 }
 
 .about-bookings-container h2 {
@@ -11,27 +9,29 @@
     color: #777;
     text-align: center;
     border-bottom: 4px solid #eee;
-    width: 300px;
-    margin: 0 auto;
     font-weight: normal;
     padding-top: 30px;
     padding-bottom: 15px;
 }
 
 .why-us {
-    width: 300px;
-    padding-left: 5px;
+    padding: 15px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .why-us h3 {
-    font-size: 18px;
+    font-size: 17px;
     color: #333;
-    font-weight: normal;
-    padding-top: 27px;
+    font-weight: bold;
+    padding-top: 20px;
 }
 
 .why-us ul {
     margin-top: 20px;
+    flex-basis: 320px;
 }
 
 .why-us li {
@@ -46,12 +46,23 @@
     line-height: 24px;
 }
 
+.norton-logo-container {
+    flex-basis: 100%;
+}
+
+.norton-logo-container img {
+    display: block;
+    margin: 0 auto;
+}
+
 .customer-experience {
     border: 1px dashed #bccad7;
     padding: 17px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 20px;
+    flex-basis: 290px;
 }
 
 .customer-name {
@@ -79,7 +90,6 @@
 }
 
 .contact-block {
-    width: 320px;
     margin-top: 20px;
 }
 
@@ -91,15 +101,14 @@
 .ask-question {
     background-color: #eee;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0 20px;
 }
 
 .contact-block h3 {
     text-align: center;
     font-size: 18px;
     color: #444;
-    font-weight: normal;
     padding-top: 23px;
 }
 
@@ -111,7 +120,6 @@
 }
 
 .contact-block button {
-    width: 280px;
     background-color: #0073b5;
     color: #fff;
     padding: 15px 0;
@@ -135,7 +143,7 @@
     width: 280px;
     margin: 0 auto;
     padding-bottom: 15px;
-    border-bottom: 1px dashed #f26522;
+    border-bottom: 1px dashed #777;
     text-decoration: none;
 }
 
@@ -162,8 +170,8 @@
 .subscription {
     background-color: #eee;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0 20px;
 }
 
 .subscription p {
@@ -174,7 +182,6 @@
 }
 
 .subscription input {
-    width: 280px;
     padding: 15px 0;
     font-size: 14px;
     color: #aaa;

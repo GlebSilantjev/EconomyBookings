@@ -1,8 +1,8 @@
 .calendar-container {
 	position: absolute;
 	border: 2px solid #fff;
-	width: 280px;
-	top: 99px;
+	width: calc(100% + 4px);
+	top: 106px;
 	left: -2px;
 	background-color: #fff;
 	z-index: 10;
