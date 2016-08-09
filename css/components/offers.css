@@ -17,7 +17,7 @@ h2.offers-hot-deals {
     flex-wrap: wrap;
     position: relative;
     overflow: hidden;
-    height: 315px;
+    height: 320px;
 }
 
 .carousel-arrow-left {
@@ -126,7 +126,6 @@ h2.offers-hot-deals {
 }
 
 .locations-item {
-    /*display: inline-block;*/
     padding: 5px 0;
     font-size: 16px;
 }
@@ -138,4 +137,18 @@ h2.offers-hot-deals {
 
 .locations-item a:hover {
     color: #c88f06;
+}
+
+@media (min-width: 640px) {
+    .locations-list {
+        display: flex;
+        justify-content: center;
+        padding: 10px 20px;
+        flex-wrap: wrap;
+        align-items: baseline;
+    }
+
+    .locations-item {
+        flex:1 1 33%;
+    }
 }

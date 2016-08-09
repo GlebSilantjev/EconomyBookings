@@ -63,13 +63,8 @@ p.app-rating {
 
 @media (min-width: 640px) {
 
-    .mobile-app-container {
-        /*height: 640px;*/
-    }
-
     .mobile-app {
-        width: 380px;
-        margin: 0 0;
+        
     }
 
     .mobile-app h1 {
@@ -87,5 +82,22 @@ p.app-rating {
         margin-left: 10px;
     }
 
+    .phone {
+        background-image: url('../../img/phone.png');
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 394px;
+        height: 526px;
+        bottom: 20px;
+        right: -140px;
+    }
 
+    .mobile-app-container {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .rental-news-logos {
+        justify-content: flex-start;
+    }
 }

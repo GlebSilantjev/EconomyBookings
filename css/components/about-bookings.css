@@ -27,6 +27,8 @@
     color: #333;
     font-weight: bold;
     padding-top: 20px;
+    flex-basis: 100%;
+    text-align: center;
 }
 
 .why-us ul {
@@ -192,18 +194,17 @@
 
 @media (min-width: 640px) {
 
-    .about-bookings-container {
-        width: 640px;
-    }
-
-    .about-bookings-container h2 {
-        width: 100%;
-    }
-
     .about-container {
-        width: 640px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+    }
+
+    .why-us {
+        flex-basis: 50%;
+    }
+
+    .contact-block {
+        flex-basis: 50%;
     }
 }
