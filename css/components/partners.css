@@ -1,13 +1,9 @@
 .partners-container {
     background-color: #d8e9f2;
+    padding: 0 20px;
 }
 
-.partners {
-    width: 300px;
-    margin: 0 auto;
-}
-
-.partners h2 {
+.partners-container h2 {
     text-align: center;
     color: #1a5880;
     text-transform: uppercase;
@@ -18,18 +14,21 @@
 .partners-list {
     margin-top: 25px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    height: 190px;
 }
 
 .partners-list li {
-    width: 50%;
+    margin-left: 19px;
+}
+
+.partners-list li:first-child {
+    margin-left: 0px;
 }
 
 .partners-list img {
-    height: 51px;
-    width: 121px;
-    margin: 0 auto;
-    display: block;
     margin-top: 17px;
     margin-bottom: 30px;
 }

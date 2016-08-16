@@ -19,6 +19,10 @@
     margin: 0 15px;
 }
 
+.spotlight-heading svg text {
+    fill: #fff;
+}
+
 .heading-rating {
     display: none;
 }

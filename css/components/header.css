@@ -53,6 +53,16 @@
     display: none;
 }
 
+.main-nav-logo-wrapper {
+    display: flex;
+    flex:2 0 0;
+}
+
+.like-count {
+    display: none;
+    color: #bacdd9;
+}
+
 .drop-panel {
     width: 320px;
     background-color: #133f5c;
@@ -260,16 +270,20 @@
     }
 
     .drop-panel-container {
-        display: block;
+        display: flex;
         position: relative;
         background-color: inherit;
         top: 0;
+        justify-content: space-between;
+        flex: 3 1 0;
+        padding-left: 20px;
     }
 
     .drop-panel {
         background-color: inherit;
         width: auto;
         align-items: center;
+        justify-content: space-between;
     }
 
     .drop-panel > li:last-child:before {
@@ -278,7 +292,7 @@
 
     .drop-panel > li:last-child {
         margin: 0;
-        order: -1;
+        /*order: -1;*/
     }
 
     .btn-my-booking {
@@ -459,4 +473,12 @@
         width: 200px;
     }
 
+    .like-count {
+        display: block;
+        padding-left: 15px;
+    }
+
+    .main-nav-logo-wrapper {
+        align-items: center;
+    }
 }

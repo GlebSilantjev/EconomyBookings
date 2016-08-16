@@ -6,7 +6,7 @@
 }
 
 .mobile-app {
-    padding: 0 15px;
+    padding: 0 20px;
 }
 
 .mobile-app h1 {
@@ -54,6 +54,7 @@ p.app-rating {
     justify-content: center;
     flex-wrap: wrap;
     align-content: center;
+    align-items: baseline;
 }
 
 .rental-news-logos img {
@@ -63,23 +64,19 @@ p.app-rating {
 
 @media (min-width: 640px) {
 
-    .mobile-app {
-        
-    }
-
     .mobile-app h1 {
         font-size: 50px;
         font-weight: normal;
+        text-align: left;
     }
 
     .intro-paragraph {
         text-align: left;
-        padding-left: 10px;
     }
 
     .store {
         text-align: left;
-        margin-left: 10px;
+        margin-left: 0;
     }
 
     .phone {
@@ -89,7 +86,7 @@ p.app-rating {
         width: 394px;
         height: 526px;
         bottom: 20px;
-        right: -140px;
+        left: 405px;
     }
 
     .mobile-app-container {
@@ -99,5 +96,6 @@ p.app-rating {
 
     .rental-news-logos {
         justify-content: flex-start;
+        padding-left: 10px;
     }
 }

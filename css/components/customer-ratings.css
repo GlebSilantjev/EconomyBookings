@@ -62,7 +62,7 @@ svg text {
     flex-flow: row wrap;
     justify-content: space-between;
     background-color: #f3f3f3;
-    width: 300px;
+    /*width: 300px;*/
     margin: 0 auto;
     padding: 11px 20px 5px;
     margin-top: 20px
@@ -90,9 +90,8 @@ svg text {
 }
 
 .review-comments {
-    width: 300px;
     margin-top: 30px;
-    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .review-comments ul {
@@ -219,16 +218,16 @@ svg text {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        margin: 0 auto;
-        width: 640px;
     }
 
     .ratings {
-        padding-top: 30px;
+        flex: 1 1 0;
+        padding: 30px 10px 0 20px;
     }
 
     .review-comments {
-        padding-top: 30px;
+        flex: 1 1 0;
+        padding: 30px 20px 0 10px;
         margin: 0 0;
     }
 

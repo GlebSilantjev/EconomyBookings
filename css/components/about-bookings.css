@@ -207,4 +207,8 @@
     .contact-block {
         flex-basis: 50%;
     }
+
+    .book-by-phone .social-icons {
+        justify-content: center;
+    }
 }

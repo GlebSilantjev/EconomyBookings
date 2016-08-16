@@ -14,10 +14,13 @@
     <!-- Main Header -->
     <header class="main-header">
         <nav class="main-nav">
-            <a href="#"><img src="img/main_logo.png" alt="Economy Bookings Logo"></a>
+            <div class="main-nav-logo-wrapper">
+                <a href="#"><img src="img/main_logo.png" alt="Economy Bookings Logo"></a>
+                <div class="like-count"><i class="fa fa-heart" aria-hidden="true"></i><strong>41,760</strong><span class="likes">users love us</span></div>
+            </div>
             <button class="btn-hamburger"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></button>
             <div class="drop-panel-container">
-                <ul class="drop-panel">
+<!--                 <ul class="drop-panel">
                     <li>
                         <button class="btn-drop-panel"><i class="fa fa-phone" aria-hidden="true"></i><i
                                 class="fa fa-angle-down" aria-hidden="true"></i></button>
@@ -129,7 +132,23 @@
                         </div>
                     </li>
                     <li><i class="fa fa-heart" aria-hidden="true"></i><strong>41,760</strong><span class="likes">users love us</span></li>
-                </ul>
+                </ul> -->
+                <button class="btn-drop-panel"><i class="fa fa-phone" aria-hidden="true"></i><i
+                                class="fa fa-angle-down" aria-hidden="true"></i></button>
+                <button class="btn-drop-panel">EN <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            <select class="opacity">
+                                <option value="English">English</option>
+                                <option value="Eperanto">Esperanto</option>
+                                <option value="Estonian">Estonian</option>
+                                <option value="Finnish">Finnish</option>
+                                <option value="French">French</option>
+                            </select>
+                </button>
+                <button class="btn-drop-panel"><i class="fa fa-eur" aria-hidden="true"></i><i
+                                class="fa fa-angle-down" aria-hidden="true"></i></button>
+
+                <button class="btn-drop-panel btn-my-booking">My Booking <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+
             </div>
         </nav>
     </header>
@@ -142,9 +161,9 @@
             <sup class="heading-rating">
                 <svg viewBox="-10 -10 220 220">
                     <path d="M 100,0 A100,100 0 1,1 12.36933199561365,51.82463258982846" fill="transparent"
-                          stroke="#0073b5" stroke-width="10"></path>
+                          stroke="#fff" stroke-width="10"></path>
                     <circle cx="100" cy="100" r="91" stroke-width="1" stroke="#d7dce1"
-                            fill="rgba(255,255,255,0.3)"></circle>
+                            fill="rgba(255, 255, 255, 0.1)"></circle>
                     <circle cx="100" cy="100" r="109" stroke-width="1" stroke="#d7dce1" fill="transparent"></circle>
                     <text x="100" y="125">8.3</text>
                 </svg>
@@ -345,6 +364,26 @@
                 <button class="btn-book-car">Book now</button>
                 <p class="car-location">at Malpensia Airport(MXP)</p>
             </li>
+            <li>
+                <h3 class="car-model">Audi Q3</h3>
+                <img src="img/audi.jpg" alt="Audi Q3 Image"/>
+
+                <p class="car-price hot-price">16,72 <i class="fa fa-eur" aria-hidden="true"></i></p>
+
+                <p class="car-price old-price">19,99 <i class="fa fa-eur" aria-hidden="true"></i></p>
+                <button class="btn-book-car">Book now</button>
+                <p class="car-location">at Malpensia Airport(MXP)</p>
+            </li>
+            <li>
+                <h3 class="car-model">Audi Q3</h3>
+                <img src="img/audi.jpg" alt="Audi Q3 Image"/>
+
+                <p class="car-price hot-price">16,72 <i class="fa fa-eur" aria-hidden="true"></i></p>
+
+                <p class="car-price old-price">19,99 <i class="fa fa-eur" aria-hidden="true"></i></p>
+                <button class="btn-book-car">Book now</button>
+                <p class="car-location">at Malpensia Airport(MXP)</p>
+            </li>
             <div class="carousel-arrow-right"></div>
         </ul>
         <div class="offers-hot-locations">
@@ -485,33 +524,54 @@
 
     <!-- Partners Container -->
     <div class="partners-container">
-        <div class="partners">
+        <!-- <div class="partners"> -->
             <h2>Other Top Car Rental Suppliers In Milan</h2>
             <ul class="partners-list">
                 <li>
                     <svg viewBox="-10 -10 220 220">
+                        <circle cx="100" cy="100" r="109" stroke-width="2" stroke="#d7dce1" fill="#fff"></circle>
                         <path d="M 100,0 A100,100 0 1,1 41.22147477075268,19.098300562505273" fill="transparent"
                               stroke="#0073b5" stroke-width="10"></path>
-                        <circle cx="100" cy="100" r="91" stroke-width="1" stroke="#e4e4e4"
+                        <circle cx="100" cy="100" r="91" stroke-width="2" stroke="#d7dce1"
                                 fill="rgba(255,255,255,0.3)"></circle>
-                        <circle cx="100" cy="100" r="109" stroke-width="1" stroke="#e4e4e4" fill="transparent"></circle>
                         <text x="100" y="125">9.0</text>
                     </svg>
                     <img src="img/alamo-logo.jpg" alt="Alamo Logo">
                 </li>
                 <li>
                     <svg viewBox="-10 -10 220 220">
-                        <path d="M 100,0 A100,100 0 1,1 12.369331995613663,148.17536741017156" fill="transparent"
-                              stroke="#0073b5" stroke-width="10"></path>
-                        <circle cx="100" cy="100" r="91" stroke-width="1" stroke="#e3e3e3"
+                        <circle cx="100" cy="100" r="109" stroke-width="2" stroke="#d7dce1" fill="#fff"></circle>
+                        <path d="M 100,0 A100,100 0 1,1 12.369331995613663,148.17536741017156" fill="transparent" stroke="#0073b5" stroke-width="10"></path>
+                        <circle cx="100" cy="100" r="91" stroke-width="2" stroke="#d7dce1"
                                 fill="rgba(255,255,255,0.3)"></circle>
-                        <circle cx="100" cy="100" r="109" stroke-width="1" stroke="#e3e3e3" fill="transparent"></circle>
                         <text x="100" y="125">6.7</text>
                     </svg>
                     <img src="img/enterprise-logo.jpg" alt="Enterprise Logo">
                 </li>
+                <li>
+                    <svg viewBox="-10 -10 220 220">
+                        <circle cx="100" cy="100" r="109" stroke-width="2" stroke="#d7dce1" fill="#fff"></circle>
+                        <path d="M 100,0 A100,100 0 1,1 12.36933199561365,51.82463258982846" fill="transparent"
+                          stroke="#0073b5" stroke-width="10"></path>
+                        <circle cx="100" cy="100" r="91" stroke-width="2" stroke="#d7dce1"
+                                fill="rgba(255,255,255,0.3)"></circle>
+                        <text x="100" y="125">8.3</text>
+                    </svg>
+                    <img src="img/hertz-logo.jpg" alt="Enterprise Logo">
+                </li>
+                <li>
+                    <svg viewBox="-10 -10 220 220">
+                        <circle cx="100" cy="100" r="109" stroke-width="2" stroke="#d7dce1" fill="#fff"></circle>
+                        <path d="M 100,0 A100,100 0 1,1 12.36933199561365,51.82463258982846" fill="transparent"
+                          stroke="#0073b5" stroke-width="10"></path>
+                        <circle cx="100" cy="100" r="91" stroke-width="2" stroke="#d7dce1"
+                                fill="rgba(255,255,255,0.3)"></circle>
+                        <text x="100" y="125">8.3</text>
+                    </svg>
+                    <img src="img/europcar-logo.jpg" alt="Enterprise Logo">
+                </li>
             </ul>
-        </div>
+        <!-- </div> -->
     </div>
     <!-- /Partners Container -->
 
@@ -588,37 +648,36 @@
     <!-- Mobile App -->
     <div class="mobile-app-container">
         <div class="mobile-app-content-wrapper">
-        <div class="mobile-app">
-            <h1>Book car rentals from your phone</h1>
+            <div class="mobile-app">
+                <h1>Book car rentals <br/>
+                from your phone</h1>
+                <p class="intro-paragraph">From any kind of Android smartphone, you <br /> can easily and quickly book a vehicle
+                    with <br /> the EconomyBookings App. Just select your <br /> branch and vehicle and complete your booking!</p>
 
-            <p class="intro-paragraph">From any kind of Android smartphone, you can easily and quickly book a vehicle
-                with the EconomyBookings App. Just select your branch and vehicle and complete your booking!</p>
+                <div class="store">
+                    <a href=""><img src="img/google-play.jpg" alt="Google Play Store"></a>
 
-            <div class="store">
-                <a href=""><img src="img/google-play.jpg" alt="Google Play Store"></a>
+                    <p class="app-rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>(67)
+                    </p>
+                </div>
+                <div class="store">
+                    <a href=""><img src="img/app-store.jpg" alt="Apple App Store"></a>
 
-                <p class="app-rating">
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star-half-o" aria-hidden="true"></i>(67)
-                </p>
+                    <p class="app-rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>(39)
+                    </p>
+                </div>
             </div>
-            <div class="store">
-                <a href=""><img src="img/app-store.jpg" alt="Apple App Store"></a>
-
-                <p class="app-rating">
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star-half-o" aria-hidden="true"></i>(39)
-                </p>
-            </div>
-        </div>
-            <div class="phone">
-            </div>
+            <div class="phone"></div>
         </div>
         <div class="rental-news-block">
             <div class="rental-news-logos">
