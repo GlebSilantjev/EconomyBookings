@@ -73,4 +73,8 @@
         right: 0;
         background-color: #ddd;
     }
+
+    .all-locations:last-child:after {
+        display: none;
+    }
 }

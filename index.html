@@ -20,11 +20,15 @@
             </div>
             <button class="btn-hamburger"><i class="fa fa-bars fa-lg" aria-hidden="true"></i></button>
             <div class="drop-panel-container">
-<!--                 <ul class="drop-panel">
-                    <li>
-                        <button class="btn-drop-panel"><i class="fa fa-phone" aria-hidden="true"></i><i
-                                class="fa fa-angle-down" aria-hidden="true"></i></button>
-                        <div class="phone-active">
+                <button class="btn-drop-panel phone-button">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <div class="phone-number-wrapper">
+                        <p class="phone-number">(+371) 6-601-0858</p>
+                        <p class="communication-language">communication in English</p>
+                    </div>
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                </button>
+                                        <div class="phone-active">
                             <p class="phone-number"><i class="fa fa-phone" aria-hidden="true"></i>
                                 <a href="tel:+37166010858">(+371)<strong> 6-601-0858</strong></a>
                             </p>
@@ -72,9 +76,7 @@
                                 </ul>
                             </div>
                         </div>
-                    </li>
-                    <li>
-                        <button class="btn-drop-panel">EN <i class="fa fa-angle-down" aria-hidden="true"></i>
+                <button class="btn-drop-panel">EN <i class="fa fa-angle-down" aria-hidden="true"></i>
                             <select class="opacity">
                                 <option value="English">English</option>
                                 <option value="Eperanto">Esperanto</option>
@@ -82,8 +84,8 @@
                                 <option value="Finnish">Finnish</option>
                                 <option value="French">French</option>
                             </select>
-                        </button>
-                        <div class="language-active">
+                </button>
+                <div class="language-active">
                                 <ul class="language-list">
                                     <li>Deutsch</li>
                                     <li class="active">English</li>
@@ -102,12 +104,9 @@
                                     <li>简体中文</li>
                                 </ul>
                             </div>
-                        
-                    </li>
-                    <li>
-                        <button class="btn-drop-panel"><i class="fa fa-eur" aria-hidden="true"></i><i
+                <button class="btn-drop-panel"><i class="fa fa-eur" aria-hidden="true"></i><i
                                 class="fa fa-angle-down" aria-hidden="true"></i></button>
-                        <div class="currency-active">
+                <div class="currency-active">
                             <ul class="currency-list">
                                 <li>Euro<span class="currency">&euro;</span></li>
                                 <li>US Dollar<span class="currency">$</span></li>
@@ -121,39 +120,13 @@
                                 <li>Brazilian Reais <span class="currency">R$</span></li>
                             </ul>
                         </div>
-                    </li>
 
-                    <li>
-                        <button class="btn-drop-panel btn-my-booking">My Booking <i class="fa fa-angle-down" aria-hidden="true"></i></button>
-                        <div class="login-container">
+                <button class="btn-drop-panel btn-my-booking">My Booking <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                <div class="login-container">
                             <input type="text" name="email" placeholder="Email used for reservation"/>
                             <input type="text" name="booking_number" placeholder="Booking number"/>
                             <button class="btn-sign-in">Sign In</button>
                         </div>
-                    </li>
-                    <li><i class="fa fa-heart" aria-hidden="true"></i><strong>41,760</strong><span class="likes">users love us</span></li>
-                </ul> -->
-                <button class="btn-drop-panel phone-button">
-                    <i class="fa fa-phone" aria-hidden="true"></i>
-                    <div class="phone-number-wrapper">
-                        <p class="phone-number">(+371) 6-601-0858</p>
-                        <p class="communication-language">communication in English</p>
-                    </div>
-                    <i class="fa fa-angle-down" aria-hidden="true"></i>
-                </button>
-                <button class="btn-drop-panel">EN <i class="fa fa-angle-down" aria-hidden="true"></i>
-                            <select class="opacity">
-                                <option value="English">English</option>
-                                <option value="Eperanto">Esperanto</option>
-                                <option value="Estonian">Estonian</option>
-                                <option value="Finnish">Finnish</option>
-                                <option value="French">French</option>
-                            </select>
-                </button>
-                <button class="btn-drop-panel"><i class="fa fa-eur" aria-hidden="true"></i><i
-                                class="fa fa-angle-down" aria-hidden="true"></i></button>
-
-                <button class="btn-drop-panel btn-my-booking">My Booking <i class="fa fa-angle-down" aria-hidden="true"></i></button>
 
             </div>
         </nav>
@@ -244,63 +217,125 @@
                                 <li class="show-all-cities"><a href="">Show All Cities</a></li>
                             </ul>
 
-                            <div class="calendar-container">
-                        <ul class="month">
-                            <li class="arrow-left"></li>
-                            <li><strong>December</strong> 2014</li>
-                            <li class="arrow-right"></li>
-                        </ul>
-                        <ul class="weekdays">
-                            <li>S</li>
-                            <li>M</li>
-                            <li>T</li>
-                            <li>W</li>
-                            <li>T</li>
-                            <li>F</li>
-                            <li>S</li>
-                        </ul>
-                        <ul class="days">
-                            <div class="week">
-                                <li>1</li>
-                                <li>2</li>
-                            </div>
-                            <div class="week">
-                                <li>3</li>
-                                <li>4</li>
-                                <li>5</li>
-                                <li>6</li>
-                                <li>7</li>
-                                <li>8</li>
-                                <li>9</li>
-                            </div>
-                            <div class="week">
-                                <li>10</li>
-                                <li>11</li>
-                                <li>12</li>
-                                <li>13</li>
-                                <li>14</li>
-                                <li>15</li>
-                                <li>16</li>
-                            </div>
-                            <div class="week">
-                                <li>17</li>
-                                <li>18</li>
-                                <li>19</li>
-                                <li>20</li>
-                                <li>21</li>
-                                <li>22</li>
-                                <li class="free-date">23</li>
-                            </div>
-                            <div class="week">
-                                <li class="free-date">24</li>
-                                <li class="free-date">25</li>
-                                <li class="free-date">26</li>
-                                <li class="free-date">27</li>
-                                <li class="free-date start-date">28</li>
-                                <li class="free-date between-date">29</li>
-                                <li class="free-date between-date">30</li>
-                            </div>
-                        </ul>
+                    <div class="calendar-container">
+                        <div class="december">
+                            <ul class="month">
+                                <li class="arrow-left"></li>
+                                <li><strong>December</strong> 2014</li>
+                                <li class="arrow-right"></li>
+                            </ul>
+                            <div class="calendar-border">
+                                <ul class="weekdays">
+                                    <li>S</li>
+                                    <li>M</li>
+                                    <li>T</li>
+                                    <li>W</li>
+                                    <li>T</li>
+                                    <li>F</li>
+                                    <li>S</li>
+                                </ul>
+                                <ul class="days">
+                                    <div class="week">
+                                        <li>1</li>
+                                        <li>2</li>
+                                    </div>
+                                    <div class="week">
+                                        <li>3</li>
+                                        <li>4</li>
+                                        <li>5</li>
+                                        <li>6</li>
+                                        <li>7</li>
+                                        <li>8</li>
+                                        <li>9</li>
+                                    </div>
+                                    <div class="week">
+                                        <li>10</li>
+                                        <li>11</li>
+                                        <li>12</li>
+                                        <li>13</li>
+                                        <li>14</li>
+                                        <li>15</li>
+                                        <li>16</li>
+                                    </div>
+                                    <div class="week">
+                                        <li>17</li>
+                                        <li>18</li>
+                                        <li>19</li>
+                                        <li>20</li>
+                                        <li>21</li>
+                                        <li>22</li>
+                                        <li class="free-date">23</li>
+                                    </div>
+                                    <div class="week">
+                                        <li class="free-date">24</li>
+                                        <li class="free-date">25</li>
+                                        <li class="free-date">26</li>
+                                        <li class="free-date">27</li>
+                                        <li class="free-date start-date">28</li>
+                                        <li class="free-date between-date">29</li>
+                                        <li class="free-date between-date">30</li>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                        <div class="january">
+                            <ul class="month">
+                                <li class="arrow-left"></li>
+                                <li><strong>January 2015</strong> 2014</li>
+                                <li class="arrow-right"></li>
+                            </ul>
+                            <ul class="weekdays">
+                                <li>S</li>
+                                <li>M</li>
+                                <li>T</li>
+                                <li>W</li>
+                                <li>T</li>
+                                <li>F</li>
+                                <li>S</li>
+                            </ul>
+                            <ul class="days">
+                                <div class="week">
+                                    <li class="free-date between-date">1</li>
+                                    <li class="free-date between-date">2</li>
+                                    <li class="free-date between-date">3</li>
+                                    <li class="free-date between-date">4</li>
+                                    <li class="free-date between-date">5</li>
+                                    <li class="free-date between-date">6</li>
+                                    <li class="free-date between-date">7</li>
+                                </div>
+                                <div class="week">
+                                    <li class="free-date between-date">8</li>
+                                    <li class="free-date between-date">9</li>
+                                    <li class="free-date between-date">10</li>
+                                    <li class="free-date end-date">11</li>
+                                    <li>12</li>
+                                    <li>13</li>
+                                    <li>14</li>
+                                </div>
+                                <div class="week">
+                                    <li>15</li>
+                                    <li>16</li>
+                                    <li>17</li>
+                                    <li>18</li>
+                                    <li>19</li>
+                                    <li>20</li>
+                                    <li>21</li>
+                                </div>
+                                <div class="week">
+                                    <li>22</li>
+                                    <li>23</li>
+                                    <li>24</li>
+                                    <li>25</li>
+                                    <li>26</li>
+                                    <li>27</li>
+                                    <li>28</li>
+                                </div>
+                                <div class="week">
+                                    <li>29</li>
+                                    <li>30</li>
+                                </div>
+                            </ul>
+                        </div>
                     </div>
                     </form>
                     

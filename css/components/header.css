@@ -28,6 +28,7 @@
     font-size: 13px;
     font-family: 'Open Sans', serif;
     padding: 10px;
+    position: relative;
 }
 
 .btn-my-booking {
