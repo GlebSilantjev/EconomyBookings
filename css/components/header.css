@@ -263,6 +263,10 @@
     display: none;
 }
 
+.phone-number-wrapper {
+    display: none;
+}
+
 @media (min-width: 640px) {
 
     .btn-hamburger {
@@ -480,5 +484,32 @@
 
     .main-nav-logo-wrapper {
         align-items: center;
+    }
+}
+
+@media (min-width: 1024px) {
+    .likes {
+        display: inline;
+        font-size: 14px;
+    }
+
+    .phone-button {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+
+    .phone-number-wrapper {
+        display: inline-block;
+    }
+
+    .phone-number-wrapper .phone-number {
+        font-size: 15px;
+        color: #fff;
+        padding: 0 4px;
+    }
+
+    .communication-language {
+        font-size: 11px;
     }
 }
