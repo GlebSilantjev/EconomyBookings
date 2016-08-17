@@ -1,12 +1,10 @@
-.mobile-app-container {
+
+.mobile-app {
+    padding: 1px 20px;
     margin-top: 40px;
     background-image: url('../../img/mobile-app-bg.jpg');
     background-repeat: no-repeat;
     background-position: center;
-}
-
-.mobile-app {
-    padding: 0 20px;
 }
 
 .mobile-app h1 {
@@ -97,5 +95,34 @@ p.app-rating {
     .rental-news-logos {
         justify-content: flex-start;
         padding-left: 10px;
+    }
+}
+
+@media (min-width: 1024px) {
+    
+    .mobile-app h1 {
+        font-size: 60px;
+    }
+
+    .mobile-app > p {
+        width: 540px;
+    }
+
+    .phone {
+        left: 577px;
+    }
+
+    .store-container:after {
+    content:"";
+    display:block;
+    clear:both;
+    }
+
+    .store{
+        float: left;
+    }
+
+    .store:last-child {
+        padding-left: 20px;
     }
 }
