@@ -513,4 +513,13 @@
     .communication-language {
         font-size: 11px;
     }
+
+    .phone-active {
+        left: -189px;
+    }
+
+    .phone-active .phone-number,
+    .phone-active .phone-comments {
+        display: none;
+    }
 }

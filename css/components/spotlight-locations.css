@@ -37,6 +37,7 @@
     .locations {
         width: 210px;
         left: 106px;
+        top: 44px;
     }
 
     .locations:before {

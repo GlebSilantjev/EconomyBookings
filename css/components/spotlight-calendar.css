@@ -7,7 +7,7 @@
 	background-color: #fff;
 	z-index: 10;
 	padding-bottom: 20px;
-	/*display: none;*/
+	display: none;
 }
 
 .calendar-container:after, .calendar-container:before {
@@ -102,11 +102,11 @@
     width: 0;
 	height: 0;
 	border-style: solid;
-	border-width: 20.5px 0 20.5px 10px;
+	border-width: 14.5px 0 14.5px 10px;
 	border-color: transparent transparent transparent #008aff;
 	position: absolute;
     right: -10px;
-    top: 1px;
+    top: 0px;
     content: '';
 }
 
@@ -128,18 +128,25 @@
 	  width: 0;
 	height: 0;
 	border-style: solid;
-	border-width: 20.5px 10px 20.5px 0px;
+	border-width: 14.5px 10px 14.5px 0px;
 	border-color: transparent #008aff transparent transparent;
 	position: absolute;
     left: -10px;
-    top: 1px;
+    top: 0;
     content: '';
 }
 
+.february {
+	display: none;
+}
+
 @media (min-width: 640px) {
+
 	.calendar-container {
 		display: flex;
+		display: none;
 		flex-wrap: wrap;
+		top: 94px;
 	}
 
 	.december {
@@ -162,5 +169,30 @@
 
 	.january .week:last-child {
 		margin-right: 71.4%;
+	}
+}
+
+@media (min-width: 1024px) {
+
+	.calendar-container {
+		top: 60px;
+	}
+
+	.february {
+		display: block;
+		flex: 1 1 0;
+	}
+
+	.january .arrow-right,
+	.february .arrow-left {
+		visibility: hidden;
+	}
+
+	.february .week:first-child {
+		margin-left: 28.5%;
+	}
+
+	.february .week:last-child {
+		margin-right: 42.8%;
 	}
 }

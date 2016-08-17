@@ -1,11 +1,10 @@
 
-
 .top-locations {
     display: none;
     width: calc(100% + 4px);
     position: absolute;
     background-color: #eee;
-    top: 55px;
+    top: 45px;
     left: -2px;
     z-index: 20;
     font-size: 13px;
@@ -43,15 +42,18 @@
     background-color: #fff;
 }
 
+.location-1024 {
+    display: none;
+}
 
 
 @media (min-width: 640px) {
     .top-locations {
-        width: 600px;
         display: flex;
         display: none;
         flex-wrap: wrap;
         padding-bottom: 0;
+        top: 44px;
     }
 
     .top-locations li {
@@ -59,7 +61,18 @@
         flex: 1 1 auto;
     }
 
-    .show-all-locations {
-        flex-basis: 100%;
+    .top-locations .show-all-locations {
+        flex: 1 1 100%;
+    }
+}
+
+@media (min-width: 1024px) {
+    
+    .top-locations {
+        top: 57px;
+    }
+
+    .location-1024 {
+        display: block;
     }
 }
