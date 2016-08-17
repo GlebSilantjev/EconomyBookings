@@ -152,3 +152,10 @@ h2.offers-hot-deals {
         flex:1 1 33%;
     }
 }
+
+@media (min-width: 1024px) {
+
+    .locations-item {
+        flex: 1 1 auto;
+    }
+}

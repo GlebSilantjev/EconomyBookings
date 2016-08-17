@@ -19,6 +19,7 @@
 .cities-list {
     font-size: 13px;
     color: #444;
+    display: none;
 }
 
 .cities-list li {
@@ -40,6 +41,10 @@
     font-size: 8px;
 }
 
+.cities-list:first-child {
+    display: block;
+}
+
 
 @media (min-width: 640px) {
 
@@ -51,6 +56,10 @@
 
     .cities-list {
         width: 300px;
+    }
+
+    .cities-list:nth-child(2) {
+        display: block;
     }
 
     .cities-list li {
@@ -70,4 +79,17 @@
         padding-left: 20px;
     }
 
+}
+
+@media (min-width: 1024px) {
+
+    .cities-list {
+        display: block;
+        flex: 1 1 0;
+        margin-right: 20px;
+    }
+
+    .cities-list:last-child {
+        margin-right: 0;
+    }
 }

@@ -212,3 +212,36 @@
         justify-content: center;
     }
 }
+
+@media (min-width: 1024px) {
+
+    .about-bookings-container h2 {
+        font-size: 32px;
+    }
+
+    .about-container {
+        flex-direction: column;
+    }
+
+    .why-us > div {
+        flex: 1 1 0;
+        list-style-type: none;
+    }
+
+    .why-us {
+        align-items: baseline;
+    }
+    
+    .why-us h3 {
+        font-size: 22px;
+        text-align: left;
+    }
+
+    .contact-block {
+        display: flex;
+    }
+
+    .contact-block > div {
+        flex: 1 1 0;
+    }
+}
