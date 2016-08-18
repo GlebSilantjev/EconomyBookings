@@ -110,12 +110,29 @@
     color: #939393;
 }
 
+.mobile-apps-copyright {
+    display: none;
+}
+
+.mobile-apps-copyright img {
+    border-radius: 5px;
+}
+
+.mobile-apps-copyright img:first-child {
+    margin-right: 40px;
+}
+
 @media (min-width: 640px) {
     .subscribe-block {
         margin: 25px 20px 0;
         padding: 20px;
         flex-direction: row;
         flex-wrap: wrap;
+    }
+
+    .subscribe-block h2 {
+        text-align: left;
+        flex-basis: 100%;
     }
 
     .subscribe-form {
@@ -181,4 +198,70 @@
     .mobile-apps img {
         margin-left: 10px;
     }
+}
+
+@media (min-width: 1024px) {
+
+    .footer-upper {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 20px;
+    }
+
+    .subscribe-block {
+        flex: 2 1 0;
+    }
+
+    .footer-social {
+        flex: 6 1 0;
+        flex-direction: row;
+    }
+
+    .footer-navigation-640 {
+        flex: 10 1 0;
+        padding-left: 0;
+    }
+
+    .social-cintainer {
+        flex: 1 1 0;
+        padding-right: 0;
+    }
+
+    .social-icons {
+        flex-direction: column;
+    }
+
+    .mobile-apps {
+        display: none;
+    }
+
+    .subscribe-block h2 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .subscribe-block p {
+        font-size: 12px;
+        margin-top: 0;
+    }
+
+    .subscribe-form {
+        flex-wrap: wrap;
+    }
+
+    .subscribe-form button {
+        flex-basis: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .subscribe-form input,
+    .subscribe-form button {
+        padding: 8px 0;
+    }
+
+    .mobile-apps-copyright {
+        display: block;
+    }
+
 }

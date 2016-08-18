@@ -92,4 +92,8 @@
     .cities-list:last-child {
         margin-right: 0;
     }
+
+    .cities-list li {
+        padding-left: 20px;
+    }
 }

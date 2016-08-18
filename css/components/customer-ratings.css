@@ -138,6 +138,7 @@ svg text {
     margin-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px dotted #bfbfbf;
+    background-position: 0 4px;
 }
 
 .post-date {
@@ -193,6 +194,10 @@ svg text {
     padding-top: 15px;
 }
 
+.dash {
+    display: none;
+}
+
 @media (min-width: 640px) {
 
 
@@ -231,4 +236,44 @@ svg text {
         margin: 0 0;
     }
 
+}
+
+@media (min-width: 1024px) {
+
+    .order-change {
+        display: flex;
+        width: 100%;
+        align-items: baseline;
+        border-bottom: 1px dotted #bfbfbf;;
+    }
+
+    .order-change li {
+        flex: 1 1 0;
+        text-align: left;
+        border-bottom: 0;
+    }
+
+    .order-change .poster-rating {
+        order: 2;
+        flex: 6 1 0;
+        text-align: right;
+    }
+
+    .order-change .poster-name,
+    .order-change .poster-country {
+        padding-right: 5px;
+    }
+
+    .order-change .post-date {
+        flex: 8 1 0;
+    }
+
+    .dash {
+        display: inline;
+    }
+
+    .positive-feedback,
+    .negative-feedback {
+        flex: 1 1 50%;
+    }
 }
