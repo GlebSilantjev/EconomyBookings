@@ -17,7 +17,7 @@ h2.offers-hot-deals {
     flex-wrap: wrap;
     position: relative;
     overflow: hidden;
-    height: 320px;
+    height: 330px;
 }
 
 .carousel-arrow-left {
@@ -75,6 +75,42 @@ h2.offers-hot-deals {
 
 .hot-price {
     color: #e32327;
+    font-size: 30px;
+}
+
+.special-offer {
+    position: relative;
+    box-shadow: 0 0 20px #444;
+}
+
+.special-offer .car-model {
+    padding-top: 7px;
+}
+
+.special-offer:before {
+/*    content:'';
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    display: block;
+    position: absolute;*/
+}
+
+.main-price {
+    color: #444444;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+.special-price {
+    color: #e32327;
+    font-size: 40px;
+}
+
+.special-old-price {
+    color: #aaaaaa;
+    font-size: 15px;
+    text-decoration: line-through;
 }
 
 .old-price {
@@ -96,6 +132,10 @@ h2.offers-hot-deals {
     font-size: 18px;
     display: block;
     margin: 8px auto 0;
+}
+
+.btn-special-offer {
+    background-color: #f2a622;
 }
 
 .car-location {

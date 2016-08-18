@@ -543,6 +543,7 @@
         align-items: center;
         border-right: 1px solid #fff;
         border-radius: 0;
+        padding: 10px 30px;
     }
 
     .phone-number-wrapper {
