@@ -244,4 +244,8 @@
     .contact-block > div {
         flex: 1 1 0;
     }
+
+    .book-by-phone {
+        padding: 0 20px;
+    }
 }

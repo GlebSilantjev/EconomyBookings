@@ -191,7 +191,7 @@
         padding-left: 5px;
     }
 
-    .social-icons {
+    .footer .social-icons {
         justify-content: flex-start;
     }
 
@@ -222,12 +222,12 @@
         padding-left: 0;
     }
 
-    .social-cintainer {
+    .social-container {
         flex: 1 1 0;
         padding-right: 0;
     }
 
-    .social-icons {
+    .footer .social-icons {
         flex-direction: column;
     }
 
