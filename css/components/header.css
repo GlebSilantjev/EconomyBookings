@@ -120,7 +120,8 @@
     background-color: #fff;
     border-radius: 2px;
     position: absolute;
-    left: -4px;
+    left: 0px;
+    top: 51px;
     z-index: 12;
     display: none;
 }
@@ -254,7 +255,7 @@
     border-bottom: 1px solid #d2d2d2;
     padding: 0 10px;
     text-align: center;
-    color: #d2d2d2;
+    color: #aaa;
 }
 
 .btn-sign-in {
@@ -332,7 +333,7 @@
     .phone-active {
         width: 610px;
         /*display: block;*/
-        left: -265px;
+        left: -253px;
         top: 52px;
     }
 
@@ -516,6 +517,10 @@
         align-items: center;
         flex: 3 0 0;
     }
+
+    .phone-number-list:nth-child(2) {
+        display: flex;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -561,7 +566,7 @@
     }
 
     .phone-active {
-        left: -189px;
+        left: -160px;
     }
 
     .phone-active .phone-number,
