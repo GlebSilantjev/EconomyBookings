@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 15px;
+    padding: 10px 15px;
 }
 
 .hidden {
@@ -26,7 +26,6 @@
     border-radius: 2px;
     color: #bacdd9;
     font-size: 13px;
-    font-family: 'Open Sans', serif;
     padding: 10px;
     position: relative;
     margin-bottom: 5px;
@@ -53,11 +52,19 @@
     right: 0;
     z-index: 10;
     display: flex;
-    display: none;
+    /*display: none;*/
     justify-content: space-between;
     padding: 10px;
     flex-wrap: wrap;
+    height: calc(100vh - 64px);
+    align-items: baseline;
+    align-content: flex-start;
 }
+
+.btn-drop-panel {
+    margin-left: 10px;
+}
+
 
 .drop-down-like {
     flex-basis: 100%;
@@ -65,6 +72,8 @@
     text-align: center;
     color: #bacdd9;
     padding-top: 15px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .main-nav-logo-wrapper {
@@ -75,6 +84,7 @@
 .like-count {
     display: none;
     color: #bacdd9;
+    font-weight: 600;
 }
 
 .drop-panel {
@@ -285,6 +295,12 @@
     display: none;
 }
 
+.likes {
+    font-size: 14px;
+    font-weight: 300;
+
+}
+
 @media (min-width: 640px) {
 
     .btn-hamburger {
@@ -297,6 +313,7 @@
 
     .btn-drop-panel {
         margin-bottom: 0;
+        padding: 10px 16px;
     }
 
     .drop-panel-container {
@@ -304,9 +321,10 @@
         position: relative;
         background-color: inherit;
         top: 0;
-        justify-content: space-between;
-        flex: 3 1 0;
-        padding-left: 20px;
+        justify-content: flex-end;
+        flex: 1 1 50%;
+        height: auto;
+        padding: 10px 0;
     }
 
     .drop-panel {
@@ -316,13 +334,17 @@
         justify-content: space-between;
     }
 
+    .main-nav-logo-wrapper {
+        flex: 1 1 36%;
+        align-items: center;
+    }
+
     .drop-panel > li:last-child:before {
         display: none;
     }
 
     .drop-panel > li:last-child {
         margin: 0;
-        /*order: -1;*/
     }
 
     .btn-my-booking {
@@ -363,10 +385,6 @@
 
     .phone-number-list:last-child:after {
         display: none;
-    }
-
-    .like-count {
-        margin-bottom: 3px;
     }
 
     .likes {
@@ -510,12 +528,8 @@
 
     .like-count {
         display: block;
-        padding-left: 15px;
-    }
-
-    .main-nav-logo-wrapper {
-        align-items: center;
-        flex: 3 0 0;
+        padding-left: 20px;
+        margin-bottom: 3px;
     }
 
     .phone-number-list:nth-child(2) {
@@ -541,6 +555,7 @@
     .likes {
         display: inline;
         font-size: 14px;
+
     }
 
     .phone-button {
