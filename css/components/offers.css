@@ -156,21 +156,22 @@ h2.offers-hot-deals {
 .locations-heading {
     font-size: 18px;
     color: #444444;
-    padding-top: 40px;
+    padding-top: 35px;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 600;
     font-style: normal;
 }
 
 .locations-list {
     list-style-type: none;
     padding-top: 20px;
-    padding-bottom: 35px;
+    padding-bottom: 25px;
 }
 
 .locations-item {
-    padding: 5px 0;
+    padding: 8px 10px;
     font-size: 16px;
+    display: inline-block;
 }
 
 .locations-item a {
@@ -180,25 +181,4 @@ h2.offers-hot-deals {
 
 .locations-item a:hover {
     color: #c88f06;
-}
-
-@media (min-width: 640px) {
-    .locations-list {
-        display: flex;
-        justify-content: center;
-        padding: 10px 20px;
-        flex-wrap: wrap;
-        align-items: baseline;
-    }
-
-    .locations-item {
-        flex:1 1 33%;
-    }
-}
-
-@media (min-width: 1024px) {
-
-    .locations-item {
-        flex: 1 1 auto;
-    }
 }

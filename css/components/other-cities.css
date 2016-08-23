@@ -29,7 +29,13 @@
     border-bottom: 1px solid #ddd;
 }
 
-.all-cities-link {
+.cities-list li a,
+.cities-list li a:visited {
+    color: #444;
+}
+
+.all-cities-link,
+.all-cities-link:visited {
     color: #777;
     display: block;
     text-align: center;
@@ -95,5 +101,10 @@
 
     .cities-list li {
         padding-left: 20px;
+    }
+
+    .other-cities {
+        width: 960px;
+        margin: 0 auto;
     }
 }

@@ -52,7 +52,7 @@
     right: 0;
     z-index: 10;
     display: flex;
-    /*display: none;*/
+    display: none;
     justify-content: space-between;
     padding: 10px;
     flex-wrap: wrap;
@@ -303,6 +303,10 @@
 
 @media (min-width: 640px) {
 
+    .main-nav {
+        padding: 2px 15px;
+    }
+
     .btn-hamburger {
         display: none;
     }
@@ -544,7 +548,7 @@
     }
 
     .drop-panel-container {
-        flex: 2 1 0;
+        flex: 3 1 0;
     }
 
     .like-count {
@@ -563,7 +567,7 @@
         align-items: center;
         border-right: 1px solid #fff;
         border-radius: 0;
-        padding: 10px 30px;
+        padding: 2px 30px;
     }
 
     .phone-number-wrapper {
@@ -587,5 +591,11 @@
     .phone-active .phone-number,
     .phone-active .phone-comments {
         display: none;
+    }
+
+    .main-nav {
+        width: 960px;
+        margin: 0 auto;
+        padding: 0;
     }
 }

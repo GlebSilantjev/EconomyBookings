@@ -4,6 +4,7 @@
     margin: 15px;
     text-align: center;
     width: 100%;
+    font-weight: 600;
 }
 
 .customer-ratings-heading > a {
@@ -66,11 +67,12 @@ svg text {
     margin: 0 auto;
     padding: 11px 20px 5px;
     margin-top: 20px
+    border-radius: 3px;
 }
 
 .criteria-ranking li {
     border-bottom: 1px solid #ddd;
-    padding: 14px 0;
+    padding: 13px 0;
 }
 
 .criteria-ranking li:last-child, .criteria-ranking li:nth-last-child(2) {
@@ -247,6 +249,15 @@ svg text {
 
 @media (min-width: 1024px) {
 
+    .customer-ratings-container {
+        width: 960px;
+        margin: 0 auto;
+    }
+
+    .customer-logo-heading {
+        padding: 30px 0 20px;
+    }
+
     .order-change {
         display: flex;
         width: 100%;
@@ -282,5 +293,21 @@ svg text {
     .positive-feedback,
     .negative-feedback {
         flex: 1 1 50%;
+        padding-right: 15px;
+    }
+
+    .review-comments {
+        flex: 2 1 0;
+        padding-top: 20px;
+        padding-right: 0;
+    }
+
+    .customer-ratings-heading {
+        padding: 0;
+    }
+
+    .ratings {
+        padding-top: 25px;
+        padding-left: 0;
     }
 }

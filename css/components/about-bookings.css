@@ -17,26 +17,21 @@
 .why-us {
     padding: 15px;
     margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 .why-us h3 {
     font-size: 17px;
     color: #333;
-    font-weight: bold;
+    font-weight: 600;
     padding-top: 20px;
-    flex-basis: 100%;
-    text-align: center;
+    margin-bottom: 20px;
 }
 
-.why-us ul {
-    margin-top: 20px;
-    flex-basis: 320px;
+.why-list {
+    width: 100%;
 }
 
-.why-us li {
+.why-us span {
     background-image: url('../../img/check.png');
     background-repeat: no-repeat;
     background-position: 0 5px;
@@ -46,16 +41,17 @@
     color: #333;
     margin-bottom: 25px;
     line-height: 24px;
+    display: block;
 }
 
 .norton-logo-container {
     flex-basis: 100%;
 }
 
-.norton-logo-container img {
+/*.norton-logo-container img {
     display: block;
-    margin: 0 auto;
-}
+
+}*/
 
 .customer-experience {
     border: 1px dashed #bccad7;
@@ -63,7 +59,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 35px;
     flex-basis: 290px;
 }
 
@@ -114,7 +110,7 @@
     padding-top: 23px;
 }
 
-.ask-question p {
+.ask-question span {
     font-size: 14px;
     color: #444;
     text-align: center;
@@ -126,7 +122,7 @@
     color: #fff;
     padding: 15px 0;
     border-radius: 5px;
-    margin: 15px 0;
+    margin-top: 15px;
 }
 
 .email {
@@ -138,6 +134,11 @@
     background-color: #ddd;
 }
 
+.book-by-phone h3 {
+    font-weight: 600;
+
+}
+
 .book-by-phone .phone-number {
     color: #0073b5;
     font-size: 24px;
@@ -147,6 +148,7 @@
     padding-bottom: 15px;
     border-bottom: 1px dashed #777;
     text-decoration: none;
+    font-weight: 700;
 }
 
 .social {
@@ -154,6 +156,7 @@
     color: #777;
     text-align: center;
     margin-top: 15px;
+    display: block;
 }
 
 .social-icons {
@@ -176,18 +179,29 @@
     padding: 0 20px;
 }
 
-.subscription p {
+.subscription span {
     font-size: 14px;
     color: #444;
     text-align: center;
     margin: 15px 0;
 }
 
-.subscription input {
-    padding: 15px 0;
+.subscripftion form {
+    width: 100%;
+}
+
+.subscription form input {
+    padding: 12px 0;
     font-size: 14px;
     color: #aaa;
     text-align: center;
+    width: 100%;
+    outline: 1px solid #dddddd;
+}
+
+.subscription form button {
+    width: 100%;
+    padding: 10px 0;
 }
 
 
@@ -223,13 +237,9 @@
         flex-direction: column;
     }
 
-    .why-us > div {
-        flex: 1 1 0;
-        list-style-type: none;
-    }
-
     .why-us {
         align-items: baseline;
+        padding: 15px 0 15px 3px;
     }
     
     .why-us h3 {
@@ -247,5 +257,31 @@
 
     .book-by-phone {
         padding: 0 20px;
+    }
+
+    .customer-ratings-heading {
+        padding: 0;
+    }
+
+    .why-list-container {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .why-list-container > div {
+        flex: 1 1 0;
+    }
+
+    .why-us h3 {
+        margin-bottom: 10px;
+    }
+
+    .customer-experience {
+        margin-top: 0px;
+    }
+
+    .about-bookings-container {
+        width: 960px;
+        margin: 0 auto;
     }
 }

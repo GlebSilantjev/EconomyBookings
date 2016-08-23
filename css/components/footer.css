@@ -206,15 +206,19 @@
         display: flex;
         flex-direction: row-reverse;
         margin-bottom: 20px;
+        width: 960px;
+        margin: 20px auto 20px;
     }
 
     .subscribe-block {
         flex: 2 1 0;
+        margin-top: 0;
     }
 
     .footer-social {
         flex: 6 1 0;
         flex-direction: row;
+        padding: 0;
     }
 
     .footer-navigation-640 {
@@ -233,6 +237,10 @@
 
     .mobile-apps {
         display: none;
+    }
+
+    .subscribe-block {
+        margin-right: 0;
     }
 
     .subscribe-block h2 {
@@ -264,4 +272,22 @@
         display: block;
     }
 
+    .footer .social-icons {
+        margin-top: 0;
+    }
+
+    .footer-navigation-640 ul {
+        padding-top: 0;
+    }
+
+
+    .copy-right-block {
+        padding: 14px 0;
+    }
+
+    .logo-block {
+        width: 960px;
+        margin: 0 auto;
+        padding: 0;
+    }
 }

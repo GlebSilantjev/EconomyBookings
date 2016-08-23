@@ -2,6 +2,12 @@
 .mobile-app {
     padding: 1px 20px;
     margin-top: 40px;
+/*    background-image: url('../../img/mobile-app-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;*/
+}
+
+.mobile-app-content-wrapper {
     background-image: url('../../img/mobile-app-bg.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -59,6 +65,10 @@ p.app-rating {
     margin-right: 25px;
 }
 
+.rental-logo-lg {
+    display: none;
+}
+
 
 @media (min-width: 640px) {
 
@@ -104,16 +114,33 @@ p.app-rating {
 
 @media (min-width: 1024px) {
     
+    .mobile-app-and-phone-wrapper {
+        width: 960px;
+        margin: 0 auto;
+        position: relative;
+        padding-top: 10px;
+    }
+
+    .mobile-app {
+        padding: 1px 0;
+    }
+
     .mobile-app h1 {
         font-size: 60px;
+        font-weight: 300;
     }
 
     .mobile-app > p {
         width: 540px;
     }
 
+    .intro-paragraph {
+        line-height: 1.45;
+    }
+
     .phone {
-        left: 577px;
+        left: 560px;
+        top: 38px;
     }
 
     .store-container:after {
@@ -129,4 +156,28 @@ p.app-rating {
     .store:last-child {
         padding-left: 20px;
     }
+
+    .rental-news-block {
+        padding: 33px 0;
+    }
+
+    .rental-news-logos {
+        width: 920px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .rental-news-logos img {
+        margin-right: 68px;
+    }
+
+    .rental-logo-sm {
+        display: none;
+    }
+
+    .rental-logo-lg {
+        display: block;
+        margin-left: -41px;
+    }
+
 }
