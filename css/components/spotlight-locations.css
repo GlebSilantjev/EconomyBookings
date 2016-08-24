@@ -9,18 +9,21 @@
     font-size: 13px;
     color: #000;
     padding-bottom: 20px;
+    box-shadow: 0px 0px 4px #444;
 }
 
 .locations:before {
     width: 0;
     height: 0;
-    border-style: solid;
-    border-width: 0 13.5px 10px 13.5px;
-    border-color: transparent transparent #ffffff transparent;
+    border: 7.5px solid black;
+    border-color: transparent transparent #fff #fff;
+    transform-origin: 0 0;
+    transform: rotate(135deg);
     content: "";
     position: absolute;
-    top: -10px;
-    left: 127px;
+    top: 0px;
+    left: 35px;
+    box-shadow: -2px 2px 3px 0 rgba(0, 0, 0, 0.4);
 }
 
 .locations li {
@@ -41,6 +44,14 @@
     }
 
     .locations:before {
-        left: 20px;
+        left: 35px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .locations {
+        top: 57px;
+        left: 205px;
     }
 }

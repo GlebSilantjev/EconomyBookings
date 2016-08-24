@@ -8,9 +8,10 @@
 	z-index: 10;
 	padding-bottom: 20px;
 	display: none;
+	box-shadow: 0px 0px 4px #444;
 }
 
-.calendar-container:after, .calendar-container:before {
+/*.calendar-container:after, .calendar-container:before {
 	bottom: 100%;
 	left: 50%;
 	border: solid transparent;
@@ -33,6 +34,32 @@
 	border-bottom-color: #fff;
 	border-width: 16px;
 	margin-left: -16px;
+}*/
+
+.calendar-container:after {
+    width: 0;
+    height: 0;
+    content: "";
+    position: absolute;
+    left: 456px;
+    border: 7.5px solid black;
+    border-color: transparent transparent #eee #eee;
+    transform-origin: 0 0;
+    transform: rotate(135deg);
+}
+
+.calendar-container:before {
+	width: 0;
+    height: 0;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 460px;
+    border: 10.5px solid black;
+    border-color: transparent transparent #fff #fff;
+    transform-origin: 0 0;
+    transform: rotate(135deg);
+    box-shadow: -2px 2px 3px 0 rgba(0, 0, 0, 0.4);
 }
 
 .month {
@@ -76,13 +103,14 @@
 .week {
 	display: flex;
 	color: #777;
+	margin: 1px 0;
 }
 
 .december .week:first-child {
 	margin-left: 71.4%;
 }
 
-.week li {
+.week span {
 	flex: 1 1 0;
 	padding: 5px 0;
 	text-align: center;
@@ -125,15 +153,15 @@
 }
 
 .end-date:after {
-	  width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 14.5px 10px 14.5px 0px;
-	border-color: transparent #008aff transparent transparent;
-	position: absolute;
-    left: -10px;
+    position: absolute;
+    left: 0px;
     top: 0;
     content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 14.5px 0 14.5px 10px;
+    border-color: transparent transparent transparent #b2dcff;
 }
 
 .february {
@@ -158,6 +186,10 @@
 		flex: 1 1 0;
 	}
 
+	.january .calendar-border {
+		border: none;
+	}
+
 	.december .month .arrow-right,
 	.january .month .arrow-left {
 		visibility: hidden;
@@ -165,6 +197,7 @@
 
 	.calendar-border {
 		border-right: 1px solid #eee;
+		padding: 0 5px;
 	}
 
 	.january .week:last-child {
@@ -176,6 +209,10 @@
 
 	.calendar-container {
 		top: 60px;
+	}
+
+	.january .calendar-border {
+		border-right: 1px solid #eee;
 	}
 
 	.february {

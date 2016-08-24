@@ -18,7 +18,7 @@
     text-align: center;
 }
 
-.subscribe-block p {
+.subscribe-block span {
     font-size: 16px;
     color: #aaa;
     margin-top: 15px;
@@ -248,7 +248,7 @@
         margin-bottom: 15px;
     }
 
-    .subscribe-block p {
+    .subscribe-block span {
         font-size: 12px;
         margin-top: 0;
     }

@@ -5,19 +5,21 @@
 @media (min-width: 1024px) {
 	.autocomplete-container {
 		/*display: block;*/
-		width: 100%;
+		width: 600px;
 		position: absolute;
-		top: 55px;
+		top: 58px;
 		z-index: 10;
 	}
 
-	.autocomplete-container p {
-		padding: 10px 20px 0; 
+	.cities-and-locations > span {
+		padding: 10px 10px 0; 
+		display: block;
 	}
 
 	.cities-and-locations,
 	.autocomplete-all-locations {
 		background-color: #fff;
+		box-shadow: 0px 0px 4px #444;
 	}
 
 	.cities-and-locations ul {
@@ -26,7 +28,7 @@
 	}
 
 	.cities-and-locations li {
-		padding: 10px 40px;
+		padding: 10px 10px 10px 30px;
 		font-size: 15px;
 	}
 
@@ -35,7 +37,7 @@
 	}
 
 	.cities-and-locations .uk {
-		background-position: 20px center;
+		background-position: 10px center;
 	}
 
 	.cities-and-locations li:first-child {
@@ -75,7 +77,7 @@
 	}
 
 	.autocomplete-all-locations ul li:first-child {
-		padding: 15px 40px 10px;
+		padding: 15px 10px 10px 30px;
 		font-size: 15px;
 		color: #aaa;
 		display: flex;
@@ -83,11 +85,11 @@
 	}
 
 	.autocomplete-all-locations ul li:nth-child(2) {
-		padding: 10px 40px;
+		padding: 10px 30px;
 	}
 
 	.autocomplete-all-locations ul li {
-		padding: 10px 60px;
+		padding: 10px 50px;
 		color: #444;
 		font-size: 13px;
 	}
@@ -111,7 +113,8 @@
 	    content: "";
 	    position: absolute;
 	    top: -10px;
-	    left: 127px;
+	    left: 10px;
+	    /*box-shadow: 0px 0px 4px #444;*/
 	}
 
 

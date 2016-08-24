@@ -67,3 +67,10 @@
     font-weight: 600;
     font-style: italic;
 }
+
+@font-face {
+    font-family: 'open_sans_condenced';
+    src: ulr('../fonts/opensans-condenced-bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
