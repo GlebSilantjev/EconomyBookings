@@ -2,7 +2,7 @@
     width: 280px;
     position: absolute;
     background-color: #fff;
-    top: 55px;
+    top: 46px;
     left: -2px;
     z-index: 20;
     font-size: 13px;
@@ -32,7 +32,7 @@
     transform: rotate(135deg);
     content: "";
     position: absolute;
-    top: 57px;
+    top: 47px;
     z-index: 30;
     left: 127px;
     box-shadow: -2px 2px 3px 0 rgba(0, 0, 0, 0.4);
@@ -40,6 +40,7 @@
 
 
 @media (min-width: 640px) {
+
     .all-cities {
         width: 210px;
         left: 46px;
@@ -47,5 +48,17 @@
 
     .all-cities:before {
         left: 20px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .all-cities {
+        top: 56px;
+    }
+
+    .triangle {
+        top: 57px;
     }
 }

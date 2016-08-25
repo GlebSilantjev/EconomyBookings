@@ -3,7 +3,7 @@
     width: 280px;
     position: absolute;
     background-color: #fff;
-    top: 55px;
+    top: 46px;
     left: -2px;
     z-index: 20;
     font-size: 13px;
@@ -40,7 +40,6 @@
     .locations {
         width: 210px;
         left: 106px;
-        top: 44px;
     }
 
     .locations:before {
@@ -52,6 +51,6 @@
 
     .locations {
         top: 57px;
-        left: 205px;
+        left: 180px;
     }
 }

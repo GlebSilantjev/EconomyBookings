@@ -519,9 +519,8 @@
         transform: rotate(45deg);
         background-color: #fff;
         position: absolute;
-        top: -3px;
+        top: -5px;
         left: 118px;
-        z-index: -1;
     }
 
     .login-container {

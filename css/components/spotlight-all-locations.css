@@ -3,7 +3,7 @@
     width: calc(100% + 4px);
     position: absolute;
     background-color: #fff;
-    top: 56px;
+    top: 47px;
     left: -2px;
     z-index: 20;
     box-shadow: 0px 0px 4px #444;
@@ -55,6 +55,7 @@
         justify-content: center;
         flex-wrap: wrap;
         display: none;
+        top: 48px;
     }
 
     .all-locations:nth-child(-n+2) {
@@ -94,5 +95,9 @@
 
     .all-locations:last-child:after {
         display: none;
+    }
+
+    .all-locations-container {
+        top: 58px;
     }
 }
