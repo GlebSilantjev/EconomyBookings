@@ -30,7 +30,7 @@
 }
 
 .store {
-    margin: 25px auto 20px;
+    margin: 25px auto;
     border-radius: 5px;
     text-align: center;
     overflow: hidden;
@@ -45,7 +45,7 @@ p.app-rating {
     text-align: center;
     color: #fff292;
     font-size: 15px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .rental-news-block {
@@ -98,7 +98,7 @@ p.app-rating {
         width: 394px;
         height: 526px;
         bottom: 20px;
-        left: 405px;
+        left: 60%;
     }
 
     .mobile-app-container {
@@ -139,7 +139,6 @@ p.app-rating {
     }
 
     .phone {
-        left: 560px;
         top: 38px;
     }
 

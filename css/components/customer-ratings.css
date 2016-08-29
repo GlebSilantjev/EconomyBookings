@@ -67,7 +67,7 @@ svg text {
     /*width: 300px;*/
     margin: 0 auto;
     padding: 11px 20px 5px;
-    margin-top: 20px
+    margin-top: 20px;
     border-radius: 3px;
 }
 
@@ -220,10 +220,6 @@ svg text {
     .customer-logo-heading > .logo {
         margin-top: 0;
         order: 2;
-    }
-
-    .criteria-ranking {
-        margin-top: 20px;
     }
 
     .customer-ratings-heading {
