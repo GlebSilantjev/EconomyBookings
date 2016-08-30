@@ -2,7 +2,7 @@
     width: 280px;
     position: absolute;
     background-color: #fff;
-    top: 46px;
+    top: calc(100% + 17px);
     left: -2px;
     z-index: 20;
     font-size: 13px;
@@ -14,7 +14,6 @@
 }
 
 .all-cities-container {
-    padding-top: 20px;
     display: none;
 }
 
@@ -32,9 +31,9 @@
     transform: rotate(135deg);
     content: "";
     position: absolute;
-    top: 47px;
+    top: calc(100% + 18px);
     z-index: 30;
-    left: 127px;
+    left: 160px;
     box-shadow: -2px 2px 3px 0 rgba(0, 0, 0, 0.4);
 }
 
@@ -43,22 +42,7 @@
 
     .all-cities {
         width: 210px;
-        left: 46px;
+        left: 110px;
     }
 
-    .all-cities:before {
-        left: 20px;
-    }
-
-}
-
-@media (min-width: 1024px) {
-
-    .all-cities {
-        top: 56px;
-    }
-
-    .triangle {
-        top: 57px;
-    }
 }

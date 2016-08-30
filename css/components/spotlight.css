@@ -46,6 +46,16 @@
     border-radius: 3px;
     border: 2px solid #fff;
     margin: auto auto;
+}
+
+.spotlight-search-form {
+    outline: none;
+    border: none;
+    margin: 0;
+    font-size: 20px;
+    color: #000;
+    line-height: 32px;
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -53,19 +63,13 @@
     position: relative;
 }
 
-.spotlight-search-box form {
-    outline: none;
-    border: none;
-    margin: 0;
-    padding: 0 10px;
-    font-size: 20px;
-    color: #000;
-    line-height: 32px;
+.spotlight-search-input-container {
     flex-basis: 100%;
     position: relative;
 }
 
-.spotlight-search-box form input {
+.spotlight-search-form__input {
+    padding: 5px 15px 0;
     width: 100%;
 }
 
@@ -170,6 +174,21 @@
     display: none;
 }
 
+.dropdown-arrow:before {
+    width: 0;
+    height: 0;
+    border: 7.5px solid black;
+    border-color: transparent transparent #fff #fff;
+    transform-origin: 0 0;
+    transform: rotate(135deg);
+    content: "";
+    position: absolute;
+    top: 0px;
+    z-index: 30;
+    left: calc(50% + 9px);
+    box-shadow: -2px 2px 3px 0 rgba(0, 0, 0, 0.4);
+}
+
 /* Media Queries */
 
 @media (min-width: 640px) {
@@ -242,8 +261,11 @@
 
 @media (min-width: 1024px) {
 
-    .spotlight-search-box form {
-        flex: 14 0 0;
+
+    .spotlight-search-input-container {
+        width: 100%;
+        flex: 14;
+        position: static;
     }
 
     .logo {

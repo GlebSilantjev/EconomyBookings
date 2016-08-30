@@ -44,21 +44,6 @@ h2.offers-hot-deals {
     right: 10px;
 }
 
-/*.carousel-button:before {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    border-top: 1px solid #a9a9a9;
-    border-left: 1px solid #a9a9a9;
-    transform: rotate(-54deg) skew(-20deg);
-    top: 0;
-    bottom: 0;
-    left: 20px;
-    margin: auto 0;
-    content: "";
-    display: block;
-}*/
-
 .carousel-arrow-left {
     position: absolute;
     width: 40px;
@@ -85,7 +70,7 @@ h2.offers-hot-deals {
     margin: auto 0;
 }
 
-.offers-car li {
+.offers-car-item {
     min-width: 204px;
     min-height: 336px;
     margin: 0px 20px 60px;
@@ -100,7 +85,7 @@ h2.offers-hot-deals {
     margin-bottom: 30px;
 }
 
-.offers-car li h3 {
+.offers-car-item h3 {
     font-size: 15px;
     text-align: center;
     padding-top: 24px;
@@ -129,7 +114,7 @@ h2.offers-hot-deals {
     font-size: 30px;
 }
 
-li.special-offer {
+.special-offer {
     margin-top: -15px;
     box-shadow: 0 0 20px #444;
 }

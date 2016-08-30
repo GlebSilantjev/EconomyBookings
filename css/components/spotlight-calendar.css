@@ -2,7 +2,7 @@
 	position: absolute;
 	border: 2px solid #fff;
 	width: calc(100% + 4px);
-	top: 93px;
+	top: calc(100% + 17px);
 	left: -2px;
 	background-color: #fff;
 	z-index: 10;
@@ -10,31 +10,6 @@
 	display: none;
 	box-shadow: 0px 0px 4px #444;
 }
-
-/*.calendar-container:after, .calendar-container:before {
-	bottom: 100%;
-	left: 50%;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
-}
-
-
-.calendar-container:after {
-	border-color: rgba(238, 238, 238, 0);
-	border-bottom-color: #eee;
-	border-width: 12px;
-	margin-left: -12px;
-}
-.calendar-container:before {
-	border-color: rgba(255, 255, 255, 0);
-	border-bottom-color: #fff;
-	border-width: 16px;
-	margin-left: -16px;
-}*/
 
 .calendar-container:after {
     width: 0;
@@ -175,7 +150,6 @@
 		display: flex;
 		display: none;
 		flex-wrap: wrap;
-		top: 94px;
 	}
 
 	.december {

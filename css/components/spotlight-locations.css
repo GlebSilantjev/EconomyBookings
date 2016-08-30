@@ -3,27 +3,13 @@
     width: 280px;
     position: absolute;
     background-color: #fff;
-    top: 46px;
+    top: calc(100% + 17px);
     left: -2px;
     z-index: 20;
     font-size: 13px;
     color: #000;
     padding-bottom: 20px;
     box-shadow: 0px 0px 4px #444;
-}
-
-.locations:before {
-    width: 0;
-    height: 0;
-    border: 7.5px solid black;
-    border-color: transparent transparent #fff #fff;
-    transform-origin: 0 0;
-    transform: rotate(135deg);
-    content: "";
-    position: absolute;
-    top: 0px;
-    left: 35px;
-    box-shadow: -2px 2px 3px 0 rgba(0, 0, 0, 0.4);
 }
 
 .locations li {
@@ -41,16 +27,11 @@
         width: 210px;
         left: 106px;
     }
-
-    .locations:before {
-        left: 35px;
-    }
 }
 
 @media (min-width: 1024px) {
 
     .locations {
-        top: 57px;
         left: 180px;
     }
 }
