@@ -125,6 +125,21 @@
     padding: 0 5px;
 }
 
+.header-dropdown-arrow:before {
+    width: 0;
+    height: 0;
+    border: 4px solid black;
+    border-color: transparent transparent #fff #fff;
+    transform-origin: 0 0;
+    transform: rotate(135deg);
+    content: "";
+    position: absolute;
+    top: 0px;
+    z-index: 30;
+    left: calc(50% + 5px);
+    box-shadow: -2px 2px 3px 0 rgba(0, 0, 0, 0.4);
+}
+
 .phone-active {
     width: 320px;
     background-color: #fff;
@@ -137,7 +152,7 @@
     box-shadow: 0px 0px 8px #444;
 }
 
-.phone-active:before {
+/*.phone-active:before {
     content: "";
     display: block;
     width: 10px;
@@ -148,7 +163,7 @@
     top: -3px;
     left: 31px;
     z-index: -1;
-}
+}*/
 
 .phone-active a[href^="tel:"] {
     color: #000;
@@ -373,9 +388,9 @@
         left: auto;
     }
 
-    .phone-active:before{
+/*    .phone-active:before{
         left: 300px;
-    }
+    }*/
 
     .phone-number-list {
         flex: 1 1 0;
@@ -421,7 +436,7 @@
         box-shadow: 0px 0px 8px #444;
     }
 
-    .language-active:after {
+/*    .language-active:after {
         content: "";
         display: block;
         width: 10px;
@@ -432,7 +447,7 @@
         top: -3px;
         left: 115px;
         z-index: -1;
-    }
+    }*/
 
     .opacity {
         display: none;
@@ -511,7 +526,7 @@
         color: #fff;
     }
 
-    .currency-active:after {
+/*    .currency-active:after {
         content: "";
         display: block;
         width: 10px;
@@ -521,7 +536,7 @@
         position: absolute;
         top: -5px;
         left: 118px;
-    }
+    }*/
 
     .login-container {
         top: 58px;
