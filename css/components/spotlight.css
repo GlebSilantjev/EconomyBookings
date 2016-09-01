@@ -7,6 +7,7 @@
 .spotlight-content {
     margin: 0 auto;
     padding-top: 66px;
+    max-width: 960px;
 }
 
 .spotlight-heading {
@@ -291,7 +292,6 @@
     }
 
     .spotlight-content {
-        width: 960px;
         padding-top: 110px;
     }
 

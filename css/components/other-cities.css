@@ -5,6 +5,8 @@
 
 .other-cities {
     padding-bottom: 10px;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 .other-cities h2 {
@@ -101,10 +103,5 @@
 
     .cities-list li {
         padding-left: 20px;
-    }
-
-    .other-cities {
-        width: 960px;
-        margin: 0 auto;
     }
 }

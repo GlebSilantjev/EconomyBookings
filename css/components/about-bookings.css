@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    max-width: 960px;
 }
 
 .about-bookings-container h2 {
@@ -281,7 +282,6 @@
     }
 
     .about-bookings-container {
-        width: 960px;
         margin: 0 auto 35px;
     }
 }
