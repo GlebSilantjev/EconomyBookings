@@ -20,6 +20,7 @@
     font-weight: bold;
     border: 1px solid #fff;
     border-bottom: none;
+    cursor: pointer;
 }
 
 .top-locations li:hover {

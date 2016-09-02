@@ -22,6 +22,7 @@
 .all-locations li {
     padding: 11px 34px;
     position: relative;
+    cursor: pointer;
 }
 
 .all-locations li .fa {

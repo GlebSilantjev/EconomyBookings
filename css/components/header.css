@@ -54,7 +54,7 @@
     right: 0;
     z-index: 10;
     display: flex;
-    display: none;
+    /*display: none;*/
     justify-content: space-between;
     padding: 10px;
     flex-wrap: wrap;
@@ -70,12 +70,16 @@
 
 .drop-down-like {
     flex-basis: 100%;
-    border-top: 1px solid #fff;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
     text-align: center;
     color: #bacdd9;
     padding-top: 15px;
     font-size: 16px;
     font-weight: 600;
+}
+
+.drop-down-like .fa-heart {
+    margin-right: 5px;
 }
 
 .main-nav-logo-wrapper {
@@ -142,10 +146,12 @@
     box-shadow: -2px 2px 3px 0 rgba(0, 0, 0, 0.4);
 }
 
+.left:before {
+    left: 50px;
+}
+
 .phone-active {
-    width: 320px;
     background-color: #fff;
-    border-radius: 2px;
     position: absolute;
     left: 0px;
     top: 53px;
@@ -253,11 +259,10 @@
 }
 
 .login-container {
-    width: 320px;
+    width: 100%;
     background-color: #fff;
     font-size: 16px;
     color: #d2d2d2;
-    border-radius: 4px;
     position: absolute;
     top: 53px;
     right: 0;
@@ -291,13 +296,12 @@
 
 .btn-sign-in {
     background-color: #0073b5;
-    width: 280px;
+    width: 100%;
     color: #fff;
-    line-height: 42px;
     margin: 17px auto 0;
     border-radius: 5px;
-    height: 42px;
     display: block;
+    padding: 15px 0;
 }
 
 .language-active {
@@ -388,6 +392,7 @@
         right: -8px;
         top: 57px;
         left: auto;
+        border-radius: 2px;
     }
 
 /*    .phone-active:before{
@@ -545,6 +550,7 @@
         position: absolute;
         right: 0;
         width: 240px;
+        border-radius: 4px;
     }
 
     .login-container input {
